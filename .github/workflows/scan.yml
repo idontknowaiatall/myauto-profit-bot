@@ -1,0 +1,42 @@
+name: myauto-scan
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes
+  workflow_dispatch:          # allow manual "Run workflow" button
+
+permissions:
+  contents: write             # needed to save the bot's memory back to the repo
+
+concurrency:
+  group: myauto-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run one scan cycle
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MAX_PAGES: "4"
+        run: python actions_scan.py
+
+      - name: Save bot memory (seen cars + market prices)
+        run: |
+          git config user.name "myauto-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add seen.json market_data.json
+          git diff --cached --quiet || git commit -m "bot memory update [skip ci]"
+          git push
