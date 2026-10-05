@@ -1,0 +1,7 @@
+bot.log
+seen.json
+market_data.json
+.env
+__pycache__
+*.pyc
+*.command

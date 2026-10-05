@@ -1,0 +1,6 @@
+# NEVER upload these - they contain secrets or machine-specific files
+.env
+bot.log
+__pycache__/
+*.pyc
+.DS_Store

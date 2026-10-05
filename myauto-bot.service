@@ -1,0 +1,17 @@
+[Unit]
+Description=myauto.ge profit bot (Telegram)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/myauto-profit-bot
+ExecStart=/opt/myauto-profit-bot/venv/bin/python -u main.py
+Restart=always
+RestartSec=60
+# never sleep, never die
+StandardOutput=append:/opt/myauto-profit-bot/bot.log
+StandardError=inherit
+
+[Install]
+WantedBy=multi-user.target
