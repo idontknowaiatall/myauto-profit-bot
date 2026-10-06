@@ -410,9 +410,9 @@
     "avg": 4950
   },
   "buick|encore|2020": {
-    "sum": 248200,
-    "count": 30,
-    "avg": 8273
+    "sum": 258900,
+    "count": 31,
+    "avg": 8351
   },
   "mitsubishi|outlander sport|2024": {
     "sum": 39600,
@@ -755,9 +755,9 @@
     "avg": 7925
   },
   "chevrolet|trax|2023": {
-    "sum": 341600,
-    "count": 21,
-    "avg": 16266
+    "sum": 357400,
+    "count": 22,
+    "avg": 16245
   },
   "mitsubishi|outlander sport|2015": {
     "sum": 137000,
@@ -1280,9 +1280,9 @@
     "avg": 25500
   },
   "subaru|crosstrek|2022": {
-    "sum": 469100,
-    "count": 41,
-    "avg": 11441
+    "sum": 478200,
+    "count": 42,
+    "avg": 11385
   },
   "honda|fit|2016": {
     "sum": 44800,
@@ -3480,9 +3480,9 @@
     "avg": 1800
   },
   "volkswagen|jetta|2024": {
-    "sum": 84500,
-    "count": 4,
-    "avg": 21125
+    "sum": 97000,
+    "count": 5,
+    "avg": 19400
   },
   "subaru|xv crosstrek|2014": {
     "sum": 17400,
@@ -3655,9 +3655,9 @@
     "avg": 28000
   },
   "mazda|cx-5|2022": {
-    "sum": 222000,
-    "count": 18,
-    "avg": 12333
+    "sum": 239900,
+    "count": 19,
+    "avg": 12626
   },
   "mitsubishi|outlander|2015": {
     "sum": 13800,
@@ -4310,9 +4310,9 @@
     "avg": 25000
   },
   "land rover|range rover  velar|2018": {
-    "sum": 458000,
-    "count": 16,
-    "avg": 28625
+    "sum": 484000,
+    "count": 17,
+    "avg": 28470
   },
   "hyundai|accent|2020": {
     "sum": 128800,
@@ -4915,8 +4915,8 @@
     "avg": 3750
   },
   "maserati|gran turismo|2014": {
-    "sum": 145000,
-    "count": 5,
+    "sum": 174000,
+    "count": 6,
     "avg": 29000
   },
   "suzuki|swift|2005": {
@@ -5275,9 +5275,9 @@
     "avg": 2383
   },
   "honda|cr-v|2021": {
-    "sum": 57200,
-    "count": 4,
-    "avg": 14300
+    "sum": 72900,
+    "count": 5,
+    "avg": 14580
   },
   "ford|flex|2012": {
     "sum": 14400,
@@ -6445,9 +6445,9 @@
     "avg": 5700
   },
   "mercedes-benz|gla 250|2015": {
-    "sum": 44500,
-    "count": 5,
-    "avg": 8900
+    "sum": 55500,
+    "count": 6,
+    "avg": 9250
   },
   "mini|countryman|2014": {
     "sum": 22500,
@@ -7000,18 +7000,28 @@
     "avg": 4500
   },
   "buick|envista|2025": {
-    "sum": 18000,
-    "count": 1,
+    "sum": 36000,
+    "count": 2,
     "avg": 18000
   },
   "skoda|octavia|2006": {
-    "sum": 1152,
-    "count": 1,
+    "sum": 2304,
+    "count": 2,
     "avg": 1152
   },
   "toyota|corolla|2009": {
-    "sum": 3000,
-    "count": 1,
+    "sum": 6000,
+    "count": 2,
     "avg": 3000
+  },
+  "honda|civic|2022": {
+    "sum": 12000,
+    "count": 1,
+    "avg": 12000
+  },
+  "ford|bronco sport|2021": {
+    "sum": 12200,
+    "count": 1,
+    "avg": 12200
   }
 }
