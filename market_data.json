@@ -295,9 +295,9 @@
     "avg": 10500
   },
   "audi|q5|2013": {
-    "sum": 74700,
-    "count": 11,
-    "avg": 6790
+    "sum": 81100,
+    "count": 12,
+    "avg": 6758
   },
   "subaru|legacy|2017": {
     "sum": 203700,
@@ -410,9 +410,9 @@
     "avg": 5192
   },
   "buick|encore|2020": {
-    "sum": 443000,
-    "count": 43,
-    "avg": 10302
+    "sum": 453700,
+    "count": 44,
+    "avg": 10311
   },
   "mitsubishi|outlander sport|2024": {
     "sum": 60900,
@@ -755,9 +755,9 @@
     "avg": 7925
   },
   "chevrolet|trax|2023": {
-    "sum": 791800,
-    "count": 49,
-    "avg": 16159
+    "sum": 807600,
+    "count": 50,
+    "avg": 16152
   },
   "mitsubishi|outlander sport|2015": {
     "sum": 210200,
@@ -980,9 +980,9 @@
     "avg": 29000
   },
   "bmw|m340|2020": {
-    "sum": 531200,
-    "count": 24,
-    "avg": 22133
+    "sum": 564600,
+    "count": 25,
+    "avg": 22584
   },
   "toyota|mark x|2006": {
     "sum": 16000,
@@ -1340,9 +1340,9 @@
     "avg": 6625
   },
   "jeep|grand cherokee|2022": {
-    "sum": 573800,
-    "count": 20,
-    "avg": 28690
+    "sum": 593300,
+    "count": 21,
+    "avg": 28252
   },
   "bmw|x6 m|2018": {
     "sum": 330000,
@@ -1520,9 +1520,9 @@
     "avg": 13358
   },
   "honda|fit|2005": {
-    "sum": 58700,
-    "count": 20,
-    "avg": 2935
+    "sum": 61000,
+    "count": 21,
+    "avg": 2904
   },
   "toyota|highlander|2022": {
     "sum": 361400,
@@ -2035,9 +2035,9 @@
     "avg": 13400
   },
   "kia|k5|2024": {
-    "sum": 115300,
-    "count": 10,
-    "avg": 11530
+    "sum": 128000,
+    "count": 11,
+    "avg": 11636
   },
   "hyundai|tucson|2024": {
     "sum": 446600,
@@ -2805,9 +2805,9 @@
     "avg": 9616
   },
   "mercedes-benz|ml 350|2011": {
-    "sum": 18000,
-    "count": 2,
-    "avg": 9000
+    "sum": 27800,
+    "count": 3,
+    "avg": 9266
   },
   "audi|q8|2023": {
     "sum": 232000,
@@ -3080,9 +3080,9 @@
     "avg": 7187
   },
   "bmw|x5|2015": {
-    "sum": 1088800,
-    "count": 77,
-    "avg": 14140
+    "sum": 1104500,
+    "count": 78,
+    "avg": 14160
   },
   "bmw|320|2005": {
     "sum": 6000,
@@ -3920,9 +3920,9 @@
     "avg": 14708
   },
   "nissan|juke|2016": {
-    "sum": 133800,
-    "count": 30,
-    "avg": 4460
+    "sum": 138300,
+    "count": 31,
+    "avg": 4461
   },
   "kia|sorento|2016": {
     "sum": 144600,
@@ -4815,9 +4815,9 @@
     "avg": 4100
   },
   "bmw|x5|2010": {
-    "sum": 132500,
-    "count": 17,
-    "avg": 7794
+    "sum": 140000,
+    "count": 18,
+    "avg": 7777
   },
   "mazda|cx-5|2025": {
     "sum": 272100,
@@ -4915,9 +4915,9 @@
     "avg": 3750
   },
   "maserati|gran turismo|2014": {
-    "sum": 343000,
-    "count": 12,
-    "avg": 28583
+    "sum": 371000,
+    "count": 13,
+    "avg": 28538
   },
   "suzuki|swift|2005": {
     "sum": 2688,
@@ -5275,9 +5275,9 @@
     "avg": 2317
   },
   "honda|cr-v|2021": {
-    "sum": 182100,
-    "count": 14,
-    "avg": 13007
+    "sum": 197800,
+    "count": 15,
+    "avg": 13186
   },
   "ford|flex|2012": {
     "sum": 14400,
@@ -7455,9 +7455,9 @@
     "avg": 52500
   },
   "toyota|4 runner|2020": {
-    "sum": 424100,
-    "count": 17,
-    "avg": 24947
+    "sum": 448600,
+    "count": 18,
+    "avg": 24922
   },
   "mitsubishi|outlander sport|2018": {
     "sum": 98800,
@@ -8745,9 +8745,9 @@
     "avg": 11500
   },
   "land rover|range rover evoque|2014": {
-    "sum": 32800,
-    "count": 3,
-    "avg": 10933
+    "sum": 41300,
+    "count": 4,
+    "avg": 10325
   },
   "genesis|gv70|2022": {
     "sum": 134400,
@@ -8820,8 +8820,8 @@
     "avg": 6700
   },
   "mitsubishi|colt|2005": {
-    "sum": 9200,
-    "count": 4,
+    "sum": 11500,
+    "count": 5,
     "avg": 2300
   },
   "mercedes-benz|c 320|1998": {
@@ -9480,8 +9480,8 @@
     "avg": 55000
   },
   "mercedes-benz|e 320|2000": {
-    "sum": 25550,
-    "count": 7,
+    "sum": 29200,
+    "count": 8,
     "avg": 3650
   },
   "toyota|rav 4|2005": {
@@ -11105,8 +11105,13 @@
     "avg": 11200
   },
   "mini|cooper|2025": {
-    "sum": 25500,
-    "count": 3,
+    "sum": 34000,
+    "count": 4,
     "avg": 8500
+  },
+  "lexus|lx 570|2010": {
+    "sum": 27000,
+    "count": 1,
+    "avg": 27000
   }
 }
