@@ -325,9 +325,9 @@
     "avg": 18700
   },
   "bmw|x6|2020": {
-    "sum": 1433700,
-    "count": 33,
-    "avg": 43445
+    "sum": 1481200,
+    "count": 34,
+    "avg": 43564
   },
   "bmw|535|2010": {
     "sum": 106700,
@@ -410,9 +410,9 @@
     "avg": 4950
   },
   "buick|encore|2020": {
-    "sum": 328600,
-    "count": 38,
-    "avg": 8647
+    "sum": 339300,
+    "count": 39,
+    "avg": 8700
   },
   "mitsubishi|outlander sport|2024": {
     "sum": 39600,
@@ -755,9 +755,9 @@
     "avg": 7925
   },
   "chevrolet|trax|2023": {
-    "sum": 602600,
-    "count": 37,
-    "avg": 16286
+    "sum": 618400,
+    "count": 38,
+    "avg": 16273
   },
   "mitsubishi|outlander sport|2015": {
     "sum": 180600,
@@ -3655,9 +3655,9 @@
     "avg": 28000
   },
   "mazda|cx-5|2022": {
-    "sum": 344500,
-    "count": 25,
-    "avg": 13780
+    "sum": 362400,
+    "count": 26,
+    "avg": 13938
   },
   "mitsubishi|outlander|2015": {
     "sum": 41200,
@@ -3920,9 +3920,9 @@
     "avg": 14626
   },
   "nissan|juke|2016": {
-    "sum": 90300,
-    "count": 21,
-    "avg": 4300
+    "sum": 94800,
+    "count": 22,
+    "avg": 4309
   },
   "kia|sorento|2016": {
     "sum": 131400,
@@ -4615,9 +4615,9 @@
     "avg": 7420
   },
   "toyota|rav 4|2017": {
-    "sum": 196300,
-    "count": 15,
-    "avg": 13086
+    "sum": 210100,
+    "count": 16,
+    "avg": 13131
   },
   "chevrolet|malibu|2017": {
     "sum": 41500,
@@ -4915,9 +4915,9 @@
     "avg": 3750
   },
   "maserati|gran turismo|2014": {
-    "sum": 287000,
-    "count": 10,
-    "avg": 28700
+    "sum": 315000,
+    "count": 11,
+    "avg": 28636
   },
   "suzuki|swift|2005": {
     "sum": 2688,
@@ -5275,9 +5275,9 @@
     "avg": 2306
   },
   "honda|cr-v|2021": {
-    "sum": 135700,
-    "count": 9,
-    "avg": 15077
+    "sum": 151400,
+    "count": 10,
+    "avg": 15140
   },
   "ford|flex|2012": {
     "sum": 14400,
@@ -9215,8 +9215,8 @@
     "avg": 2500
   },
   "bmw|335|2015": {
-    "sum": 26000,
-    "count": 2,
+    "sum": 39000,
+    "count": 3,
     "avg": 13000
   },
   "honda|fit|2004": {
@@ -9508,5 +9508,20 @@
     "sum": 2700,
     "count": 1,
     "avg": 2700
+  },
+  "mercedes-benz|glc 220|2023": {
+    "sum": 41000,
+    "count": 1,
+    "avg": 41000
+  },
+  "subaru|impreza|2024": {
+    "sum": 10700,
+    "count": 1,
+    "avg": 10700
+  },
+  "mercedes-benz|e 200|2020": {
+    "sum": 19500,
+    "count": 1,
+    "avg": 19500
   }
 }
