@@ -410,9 +410,9 @@
     "avg": 5192
   },
   "buick|encore|2020": {
-    "sum": 464400,
-    "count": 45,
-    "avg": 10320
+    "sum": 475100,
+    "count": 46,
+    "avg": 10328
   },
   "mitsubishi|outlander sport|2024": {
     "sum": 60900,
@@ -755,9 +755,9 @@
     "avg": 7925
   },
   "chevrolet|trax|2023": {
-    "sum": 823400,
-    "count": 51,
-    "avg": 16145
+    "sum": 839200,
+    "count": 52,
+    "avg": 16138
   },
   "mitsubishi|outlander sport|2015": {
     "sum": 210200,
@@ -1810,9 +1810,9 @@
     "avg": 2400
   },
   "toyota|camry|2014": {
-    "sum": 263088,
-    "count": 38,
-    "avg": 6923
+    "sum": 270588,
+    "count": 39,
+    "avg": 6938
   },
   "bmw|m440|2022": {
     "sum": 145200,
@@ -2035,9 +2035,9 @@
     "avg": 13400
   },
   "kia|k5|2024": {
-    "sum": 140700,
-    "count": 12,
-    "avg": 11725
+    "sum": 153400,
+    "count": 13,
+    "avg": 11800
   },
   "hyundai|tucson|2024": {
     "sum": 446600,
@@ -3655,9 +3655,9 @@
     "avg": 28000
   },
   "mazda|cx-5|2022": {
-    "sum": 431600,
-    "count": 30,
-    "avg": 14386
+    "sum": 449500,
+    "count": 31,
+    "avg": 14500
   },
   "mitsubishi|outlander|2015": {
     "sum": 55000,
@@ -3920,9 +3920,9 @@
     "avg": 14708
   },
   "nissan|juke|2016": {
-    "sum": 142800,
-    "count": 32,
-    "avg": 4462
+    "sum": 147300,
+    "count": 33,
+    "avg": 4463
   },
   "kia|sorento|2016": {
     "sum": 144600,
@@ -4915,9 +4915,9 @@
     "avg": 3750
   },
   "maserati|gran turismo|2014": {
-    "sum": 399000,
-    "count": 14,
-    "avg": 28500
+    "sum": 427000,
+    "count": 15,
+    "avg": 28466
   },
   "suzuki|swift|2005": {
     "sum": 2688,
@@ -5275,9 +5275,9 @@
     "avg": 2317
   },
   "honda|cr-v|2021": {
-    "sum": 213500,
-    "count": 16,
-    "avg": 13343
+    "sum": 229200,
+    "count": 17,
+    "avg": 13482
   },
   "ford|flex|2012": {
     "sum": 14400,
@@ -11113,5 +11113,15 @@
     "sum": 54000,
     "count": 2,
     "avg": 27000
+  },
+  "porsche|boxster|2025": {
+    "sum": 63000,
+    "count": 1,
+    "avg": 63000
+  },
+  "mercedes-benz|sl 320|1994": {
+    "sum": 8900,
+    "count": 1,
+    "avg": 8900
   }
 }
