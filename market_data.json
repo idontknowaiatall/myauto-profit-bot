@@ -530,9 +530,9 @@
     "avg": 14423
   },
   "alfa romeo|giulia|2022": {
-    "sum": 295400,
-    "count": 18,
-    "avg": 16411
+    "sum": 308600,
+    "count": 19,
+    "avg": 16242
   },
   "mini|cooper|2003": {
     "sum": 20100,
@@ -560,9 +560,9 @@
     "avg": 19975
   },
   "mazda|cx-5|2021": {
-    "sum": 703200,
-    "count": 51,
-    "avg": 13788
+    "sum": 717100,
+    "count": 52,
+    "avg": 13790
   },
   "hyundai|tucson|2022": {
     "sum": 1396700,
@@ -600,9 +600,9 @@
     "avg": 2700
   },
   "toyota|camry|2015": {
-    "sum": 165956,
-    "count": 19,
-    "avg": 8734
+    "sum": 174456,
+    "count": 20,
+    "avg": 8722
   },
   "mercedes-benz|cla 250|2023": {
     "sum": 129780,
@@ -1120,9 +1120,9 @@
     "avg": 8016
   },
   "mercedes-benz|cla 250|2015": {
-    "sum": 228600,
-    "count": 26,
-    "avg": 8792
+    "sum": 237300,
+    "count": 27,
+    "avg": 8788
   },
   "kia|optima|2017": {
     "sum": 249300,
@@ -1245,9 +1245,9 @@
     "avg": 8042
   },
   "jeep|renegade|2016": {
-    "sum": 547000,
-    "count": 67,
-    "avg": 8164
+    "sum": 555300,
+    "count": 68,
+    "avg": 8166
   },
   "bmw|x1|2023": {
     "sum": 571890,
@@ -1940,9 +1940,9 @@
     "avg": 5140
   },
   "bmw|x5|2024": {
-    "sum": 1827500,
-    "count": 26,
-    "avg": 70288
+    "sum": 1902500,
+    "count": 27,
+    "avg": 70462
   },
   "ford|ecosport|2021": {
     "sum": 31400,
@@ -2300,9 +2300,9 @@
     "avg": 9000
   },
   "mercedes-benz|e 350|2016": {
-    "sum": 521000,
-    "count": 38,
-    "avg": 13710
+    "sum": 532500,
+    "count": 39,
+    "avg": 13653
   },
   "volkswagen|taos|2023": {
     "sum": 155500,
@@ -3195,9 +3195,9 @@
     "avg": 20410
   },
   "toyota|corolla|2020": {
-    "sum": 76800,
-    "count": 9,
-    "avg": 8533
+    "sum": 88600,
+    "count": 10,
+    "avg": 8860
   },
   "audi|q5|2021": {
     "sum": 22739,
@@ -3545,9 +3545,9 @@
     "avg": 5950
   },
   "alfa romeo|giulia|2021": {
-    "sum": 63600,
-    "count": 7,
-    "avg": 9085
+    "sum": 68800,
+    "count": 8,
+    "avg": 8600
   },
   "mazda|cx-5|2013": {
     "sum": 22500,
@@ -4000,9 +4000,9 @@
     "avg": 7414
   },
   "bmw|540|2018": {
-    "sum": 198000,
-    "count": 10,
-    "avg": 19800
+    "sum": 221000,
+    "count": 11,
+    "avg": 20090
   },
   "mercedes-benz|s 63 amg|2015": {
     "sum": 1205000,
@@ -4300,9 +4300,9 @@
     "avg": 46500
   },
   "hyundai|elantra|2024": {
-    "sum": 542900,
-    "count": 41,
-    "avg": 13241
+    "sum": 558900,
+    "count": 42,
+    "avg": 13307
   },
   "volvo|xc 60|2020": {
     "sum": 350000,
@@ -7025,13 +7025,13 @@
     "avg": 12200
   },
   "volkswagen|cc|2014": {
-    "sum": 97500,
-    "count": 15,
+    "sum": 104000,
+    "count": 16,
     "avg": 6500
   },
   "mercedes-benz|glc 63 amg|2020": {
-    "sum": 1020000,
-    "count": 15,
+    "sum": 1088000,
+    "count": 16,
     "avg": 68000
   },
   "bmw|x1|2017": {
@@ -7055,13 +7055,13 @@
     "avg": 14150
   },
   "lexus|is 300|2017": {
-    "sum": 209900,
-    "count": 15,
-    "avg": 13993
+    "sum": 224000,
+    "count": 16,
+    "avg": 14000
   },
   "nissan|armada|2015": {
-    "sum": 195000,
-    "count": 13,
+    "sum": 210000,
+    "count": 14,
     "avg": 15000
   },
   "subaru|legacy|2022": {
@@ -7600,9 +7600,9 @@
     "avg": 25277
   },
   "bmw|540|2023": {
-    "sum": 334400,
-    "count": 10,
-    "avg": 33440
+    "sum": 350500,
+    "count": 11,
+    "avg": 31863
   },
   "jeep|wrangler|1992": {
     "sum": 9000,
@@ -11770,13 +11770,13 @@
     "avg": 58500
   },
   "mercedes-benz|cl 55 amg|2010": {
-    "sum": 49500,
-    "count": 3,
+    "sum": 66000,
+    "count": 4,
     "avg": 16500
   },
   "mercedes-benz|cl 500|2008": {
-    "sum": 46500,
-    "count": 3,
+    "sum": 62000,
+    "count": 4,
     "avg": 15500
   },
   "audi|a7|2016": {
@@ -12425,8 +12425,18 @@
     "avg": 18500
   },
   "volkswagen|arteon|2023": {
-    "sum": 18000,
-    "count": 1,
+    "sum": 36000,
+    "count": 2,
     "avg": 18000
+  },
+  "hyundai|ioniq 6|2023": {
+    "sum": 21500,
+    "count": 1,
+    "avg": 21500
+  },
+  "mercedes-benz|s 500|1998": {
+    "sum": 11000,
+    "count": 1,
+    "avg": 11000
   }
 }
