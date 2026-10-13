@@ -410,9 +410,9 @@
     "avg": 5045
   },
   "buick|encore|2020": {
-    "sum": 907600,
-    "count": 95,
-    "avg": 9553
+    "sum": 915500,
+    "count": 96,
+    "avg": 9536
   },
   "mitsubishi|outlander sport|2024": {
     "sum": 60900,
@@ -755,9 +755,9 @@
     "avg": 7680
   },
   "chevrolet|trax|2023": {
-    "sum": 1730700,
-    "count": 107,
-    "avg": 16174
+    "sum": 1746500,
+    "count": 108,
+    "avg": 16171
   },
   "mitsubishi|outlander sport|2015": {
     "sum": 418900,
@@ -2010,9 +2010,9 @@
     "avg": 12676
   },
   "chevrolet|trailblazer|2021": {
-    "sum": 1334958,
-    "count": 111,
-    "avg": 12026
+    "sum": 1347908,
+    "count": 112,
+    "avg": 12034
   },
   "jeep|renegade|2022": {
     "sum": 40000,
@@ -2035,9 +2035,9 @@
     "avg": 13400
   },
   "kia|k5|2024": {
-    "sum": 450800,
-    "count": 35,
-    "avg": 12880
+    "sum": 463500,
+    "count": 36,
+    "avg": 12875
   },
   "hyundai|tucson|2024": {
     "sum": 694200,
@@ -2390,9 +2390,9 @@
     "avg": 7500
   },
   "jeep|cherokee|2019": {
-    "sum": 660200,
-    "count": 65,
-    "avg": 10156
+    "sum": 669700,
+    "count": 66,
+    "avg": 10146
   },
   "bmw|x1|2022": {
     "sum": 470000,
@@ -4005,9 +4005,9 @@
     "avg": 21284
   },
   "mercedes-benz|s 63 amg|2015": {
-    "sum": 1725000,
-    "count": 55,
-    "avg": 31363
+    "sum": 1772000,
+    "count": 56,
+    "avg": 31642
   },
   "lexus|rx 350|2016": {
     "sum": 960700,
@@ -5165,9 +5165,9 @@
     "avg": 38000
   },
   "bmw|540|2020": {
-    "sum": 565500,
-    "count": 21,
-    "avg": 26928
+    "sum": 594500,
+    "count": 22,
+    "avg": 27022
   },
   "hyundai|getz|2007": {
     "sum": 5100,
@@ -13225,8 +13225,8 @@
     "avg": 16500
   },
   "genesis|g70|2023": {
-    "sum": 352500,
-    "count": 15,
+    "sum": 376000,
+    "count": 16,
     "avg": 23500
   },
   "mazda|cx-9|2022": {
@@ -15980,8 +15980,13 @@
     "avg": 45000
   },
   "chevrolet|camaro|2014": {
-    "sum": 10300,
-    "count": 1,
+    "sum": 20600,
+    "count": 2,
     "avg": 10300
+  },
+  "mitsubishi|eclipse|2022": {
+    "sum": 16000,
+    "count": 1,
+    "avg": 16000
   }
 }
