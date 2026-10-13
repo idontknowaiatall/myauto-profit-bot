@@ -410,9 +410,9 @@
     "avg": 5045
   },
   "buick|encore|2020": {
-    "sum": 915500,
-    "count": 96,
-    "avg": 9536
+    "sum": 923400,
+    "count": 97,
+    "avg": 9519
   },
   "mitsubishi|outlander sport|2024": {
     "sum": 60900,
@@ -2010,9 +2010,9 @@
     "avg": 12676
   },
   "chevrolet|trailblazer|2021": {
-    "sum": 1347908,
-    "count": 112,
-    "avg": 12034
+    "sum": 1360858,
+    "count": 113,
+    "avg": 12042
   },
   "jeep|renegade|2022": {
     "sum": 40000,
@@ -4795,9 +4795,9 @@
     "avg": 8791
   },
   "subaru|outback|2012": {
-    "sum": 35400,
-    "count": 6,
-    "avg": 5900
+    "sum": 42600,
+    "count": 7,
+    "avg": 6085
   },
   "bmw|550|2011": {
     "sum": 58500,
@@ -15985,8 +15985,13 @@
     "avg": 10300
   },
   "mitsubishi|eclipse|2022": {
-    "sum": 16000,
-    "count": 1,
+    "sum": 32000,
+    "count": 2,
     "avg": 16000
+  },
+  "gaz|3110|1999": {
+    "sum": 2600,
+    "count": 1,
+    "avg": 2600
   }
 }
