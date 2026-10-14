@@ -490,9 +490,9 @@
     "avg": 9868
   },
   "hyundai|tucson|2021": {
-    "sum": 734150,
-    "count": 49,
-    "avg": 14982
+    "sum": 749150,
+    "count": 50,
+    "avg": 14983
   },
   "fiat|500x|2020": {
     "sum": 30100,
@@ -520,9 +520,9 @@
     "avg": 7900
   },
   "volkswagen|jetta|2021": {
-    "sum": 6462641,
-    "count": 473,
-    "avg": 13663
+    "sum": 6474141,
+    "count": 474,
+    "avg": 13658
   },
   "bmw|x5|2014": {
     "sum": 1193599,
@@ -1090,9 +1090,9 @@
     "avg": 30958
   },
   "bmw|540|2022": {
-    "sum": 763300,
-    "count": 25,
-    "avg": 30532
+    "sum": 801800,
+    "count": 26,
+    "avg": 30838
   },
   "jeep|cherokee|2015": {
     "sum": 163900,
@@ -1315,9 +1315,9 @@
     "avg": 33991
   },
   "mercedes-benz|gle 350|2021": {
-    "sum": 4277400,
-    "count": 105,
-    "avg": 40737
+    "sum": 4312900,
+    "count": 106,
+    "avg": 40687
   },
   "subaru|forester|2017": {
     "sum": 617200,
@@ -1325,9 +1325,9 @@
     "avg": 9211
   },
   "toyota|camry|2019": {
-    "sum": 1851383,
-    "count": 139,
-    "avg": 13319
+    "sum": 1864183,
+    "count": 140,
+    "avg": 13315
   },
   "toyota|rav 4|2024": {
     "sum": 1399000,
@@ -1400,9 +1400,9 @@
     "avg": 10528
   },
   "bmw|330|2020": {
-    "sum": 2008500,
-    "count": 113,
-    "avg": 17774
+    "sum": 2028300,
+    "count": 114,
+    "avg": 17792
   },
   "bmw|m440|2021": {
     "sum": 363000,
@@ -1890,9 +1890,9 @@
     "avg": 5557
   },
   "bmw|535|2015": {
-    "sum": 772850,
-    "count": 68,
-    "avg": 11365
+    "sum": 785350,
+    "count": 69,
+    "avg": 11381
   },
   "subaru|crosstrek|2019": {
     "sum": 208556,
@@ -2675,9 +2675,9 @@
     "avg": 5016
   },
   "subaru|crosstrek|2020": {
-    "sum": 362516,
-    "count": 37,
-    "avg": 9797
+    "sum": 372516,
+    "count": 38,
+    "avg": 9803
   },
   "toyota|chr|2021": {
     "sum": 464700,
@@ -2880,9 +2880,9 @@
     "avg": 18067
   },
   "ford|fusion|2015": {
-    "sum": 378611,
-    "count": 75,
-    "avg": 5048
+    "sum": 383111,
+    "count": 76,
+    "avg": 5040
   },
   "bmw|328|2016": {
     "sum": 269892,
@@ -4215,9 +4215,9 @@
     "avg": 10800
   },
   "porsche|cayenne|2020": {
-    "sum": 2417800,
-    "count": 56,
-    "avg": 43175
+    "sum": 2457800,
+    "count": 57,
+    "avg": 43119
   },
   "lincoln|corsair|2020": {
     "sum": 330400,
@@ -4350,9 +4350,9 @@
     "avg": 31133
   },
   "volkswagen|passat|2017": {
-    "sum": 458322,
-    "count": 62,
-    "avg": 7392
+    "sum": 466122,
+    "count": 63,
+    "avg": 7398
   },
   "ford|escape|2011": {
     "sum": 131200,
@@ -6490,9 +6490,9 @@
     "avg": 4216
   },
   "chevrolet|trax|2015": {
-    "sum": 148232,
-    "count": 14,
-    "avg": 10588
+    "sum": 166232,
+    "count": 15,
+    "avg": 11082
   },
   "audi|a4|2013": {
     "sum": 15000,
@@ -7025,19 +7025,19 @@
     "avg": 11950
   },
   "volkswagen|cc|2014": {
-    "sum": 208000,
-    "count": 32,
+    "sum": 214500,
+    "count": 33,
     "avg": 6500
   },
   "mercedes-benz|glc 63 amg|2020": {
-    "sum": 2176000,
-    "count": 32,
+    "sum": 2244000,
+    "count": 33,
     "avg": 68000
   },
   "bmw|x1|2017": {
-    "sum": 283250,
-    "count": 25,
-    "avg": 11330
+    "sum": 295250,
+    "count": 26,
+    "avg": 11355
   },
   "jeep|liberty|2002": {
     "sum": 14000,
@@ -8110,9 +8110,9 @@
     "avg": 7600
   },
   "hyundai|santa fe|2014": {
-    "sum": 52400,
-    "count": 7,
-    "avg": 7485
+    "sum": 59400,
+    "count": 8,
+    "avg": 7425
   },
   "mercedes-benz|c 43 amg|2017": {
     "sum": 294331,
@@ -8915,8 +8915,8 @@
     "avg": 65500
   },
   "maserati|quattroporte|2016": {
-    "sum": 54000,
-    "count": 3,
+    "sum": 72000,
+    "count": 4,
     "avg": 18000
   },
   "mercedes-benz|clk 500|2006": {
@@ -11985,9 +11985,9 @@
     "avg": 3800
   },
   "toyota|tacoma|2026": {
-    "sum": 155300,
-    "count": 4,
-    "avg": 38825
+    "sum": 174900,
+    "count": 5,
+    "avg": 34980
   },
   "toyota|camry|2011": {
     "sum": 5200,
@@ -15985,8 +15985,8 @@
     "avg": 10300
   },
   "mitsubishi|eclipse|2022": {
-    "sum": 80000,
-    "count": 5,
+    "sum": 96000,
+    "count": 6,
     "avg": 16000
   },
   "gaz|3110|1999": {
