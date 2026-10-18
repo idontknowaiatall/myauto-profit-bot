@@ -475,9 +475,9 @@
     "avg": 15044
   },
   "subaru|forester|2020": {
-    "sum": 2074686,
-    "count": 190,
-    "avg": 10919
+    "sum": 2085486,
+    "count": 191,
+    "avg": 10918
   },
   "bmw|x1|2021": {
     "sum": 113850,
@@ -565,9 +565,9 @@
     "avg": 13596
   },
   "hyundai|tucson|2022": {
-    "sum": 2863150,
-    "count": 178,
-    "avg": 16085
+    "sum": 2881650,
+    "count": 179,
+    "avg": 16098
   },
   "audi|a3|2023": {
     "sum": 336985,
@@ -1120,9 +1120,9 @@
     "avg": 7831
   },
   "mercedes-benz|cla 250|2015": {
-    "sum": 595800,
-    "count": 67,
-    "avg": 8892
+    "sum": 604500,
+    "count": 68,
+    "avg": 8889
   },
   "kia|optima|2017": {
     "sum": 329400,
@@ -2675,9 +2675,9 @@
     "avg": 4929
   },
   "subaru|crosstrek|2020": {
-    "sum": 607116,
-    "count": 61,
-    "avg": 9952
+    "sum": 617116,
+    "count": 62,
+    "avg": 9953
   },
   "toyota|chr|2021": {
     "sum": 553800,
@@ -3115,9 +3115,9 @@
     "avg": 11539
   },
   "jeep|wrangler|2016": {
-    "sum": 181200,
-    "count": 11,
-    "avg": 16472
+    "sum": 200200,
+    "count": 12,
+    "avg": 16683
   },
   "toyota|century|1995": {
     "sum": 25500,
@@ -4110,9 +4110,9 @@
     "avg": 24785
   },
   "jeep|compass|2018": {
-    "sum": 805398,
-    "count": 95,
-    "avg": 8477
+    "sum": 809898,
+    "count": 96,
+    "avg": 8436
   },
   "mercedes-benz|a 180|2021": {
     "sum": 585000,
@@ -4265,9 +4265,9 @@
     "avg": 16394
   },
   "nissan|juke|2013": {
-    "sum": 390400,
-    "count": 80,
-    "avg": 4880
+    "sum": 395200,
+    "count": 81,
+    "avg": 4879
   },
   "smart|fortwo|2014": {
     "sum": 51800,
@@ -4300,9 +4300,9 @@
     "avg": 46500
   },
   "hyundai|elantra|2024": {
-    "sum": 1561117,
-    "count": 119,
-    "avg": 13118
+    "sum": 1577117,
+    "count": 120,
+    "avg": 13142
   },
   "volvo|xc 60|2020": {
     "sum": 350000,
@@ -4675,9 +4675,9 @@
     "avg": 12741
   },
   "subaru|outback|2023": {
-    "sum": 653100,
-    "count": 47,
-    "avg": 13895
+    "sum": 665600,
+    "count": 48,
+    "avg": 13866
   },
   "bmw|m6|2014": {
     "sum": 43600,
@@ -5710,8 +5710,8 @@
     "avg": 38000
   },
   "toyota|rav 4|2026": {
-    "sum": 1050000,
-    "count": 30,
+    "sum": 1085000,
+    "count": 31,
     "avg": 35000
   },
   "mercedes-benz|gle 580|2021": {
@@ -7025,13 +7025,13 @@
     "avg": 13540
   },
   "volkswagen|cc|2014": {
-    "sum": 299000,
-    "count": 46,
+    "sum": 305500,
+    "count": 47,
     "avg": 6500
   },
   "mercedes-benz|glc 63 amg|2020": {
-    "sum": 3128000,
-    "count": 46,
+    "sum": 3196000,
+    "count": 47,
     "avg": 68000
   },
   "bmw|x1|2017": {
@@ -7055,8 +7055,8 @@
     "avg": 16071
   },
   "lexus|is 300|2017": {
-    "sum": 563900,
-    "count": 40,
+    "sum": 578000,
+    "count": 41,
     "avg": 14097
   },
   "nissan|armada|2015": {
@@ -7885,9 +7885,9 @@
     "avg": 7972
   },
   "ford|ecosport|2020": {
-    "sum": 87255,
-    "count": 14,
-    "avg": 6232
+    "sum": 89910,
+    "count": 15,
+    "avg": 5994
   },
   "mercedes-benz|c 200|2009": {
     "sum": 74200,
@@ -7990,9 +7990,9 @@
     "avg": 4200
   },
   "fiat|punto|2004": {
-    "sum": 5300,
-    "count": 3,
-    "avg": 1766
+    "sum": 7000,
+    "count": 4,
+    "avg": 1750
   },
   "subaru|crosstrek|2014": {
     "sum": 12800,
@@ -8335,9 +8335,9 @@
     "avg": 4400
   },
   "subaru|ascent|2019": {
-    "sum": 175400,
-    "count": 15,
-    "avg": 11693
+    "sum": 186900,
+    "count": 16,
+    "avg": 11681
   },
   "toyota|prius|2010": {
     "sum": 96900,
@@ -18270,8 +18270,8 @@
     "avg": 30000
   },
   "ford|mustang mach-e|2024": {
-    "sum": 29600,
-    "count": 2,
+    "sum": 44400,
+    "count": 3,
     "avg": 14800
   },
   "audi|allroad|2018": {
@@ -18455,8 +18455,8 @@
     "avg": 1500
   },
   "honda|cr-v|2024": {
-    "sum": 45600,
-    "count": 3,
+    "sum": 60800,
+    "count": 4,
     "avg": 15200
   },
   "subaru|impreza|2016": {
@@ -18775,13 +18775,13 @@
     "avg": 24500
   },
   "bmw|x4|2020": {
-    "sum": 27000,
-    "count": 1,
+    "sum": 54000,
+    "count": 2,
     "avg": 27000
   },
   "volkswagen|taos|2021": {
-    "sum": 13300,
-    "count": 1,
+    "sum": 26600,
+    "count": 2,
     "avg": 13300
   }
 }
