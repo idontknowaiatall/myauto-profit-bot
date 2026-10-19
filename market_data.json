@@ -685,9 +685,9 @@
     "avg": 23160
   },
   "mercedes-benz|c 300|2023": {
-    "sum": 1523420,
-    "count": 53,
-    "avg": 28743
+    "sum": 1555420,
+    "count": 54,
+    "avg": 28804
   },
   "ford|f150|2020": {
     "sum": 317700,
@@ -755,8 +755,8 @@
     "avg": 7214
   },
   "chevrolet|trax|2023": {
-    "sum": 2725265,
-    "count": 172,
+    "sum": 2741065,
+    "count": 173,
     "avg": 15844
   },
   "mitsubishi|outlander sport|2015": {
@@ -1340,9 +1340,9 @@
     "avg": 6649
   },
   "jeep|grand cherokee|2022": {
-    "sum": 2498025,
-    "count": 97,
-    "avg": 25752
+    "sum": 2523025,
+    "count": 98,
+    "avg": 25745
   },
   "bmw|x6 m|2018": {
     "sum": 990000,
@@ -1775,9 +1775,9 @@
     "avg": 16191
   },
   "subaru|forester|2025": {
-    "sum": 2215027,
-    "count": 129,
-    "avg": 17170
+    "sum": 2231827,
+    "count": 130,
+    "avg": 17167
   },
   "hyundai|sonata|2017": {
     "sum": 221100,
@@ -2390,9 +2390,9 @@
     "avg": 7494
   },
   "jeep|cherokee|2019": {
-    "sum": 1213630,
-    "count": 121,
-    "avg": 10030
+    "sum": 1223620,
+    "count": 122,
+    "avg": 10029
   },
   "bmw|x1|2022": {
     "sum": 588055,
@@ -2880,9 +2880,9 @@
     "avg": 18389
   },
   "ford|fusion|2015": {
-    "sum": 571411,
-    "count": 113,
-    "avg": 5056
+    "sum": 575911,
+    "count": 114,
+    "avg": 5051
   },
   "bmw|328|2016": {
     "sum": 371692,
@@ -3565,9 +3565,9 @@
     "avg": 10000
   },
   "bmw|328|2015": {
-    "sum": 828756,
-    "count": 95,
-    "avg": 8723
+    "sum": 838056,
+    "count": 96,
+    "avg": 8729
   },
   "honda|fit|2002": {
     "sum": 42400,
@@ -3735,9 +3735,9 @@
     "avg": 12402
   },
   "lexus|gx 460|2021": {
-    "sum": 1655400,
-    "count": 46,
-    "avg": 35986
+    "sum": 1690100,
+    "count": 47,
+    "avg": 35959
   },
   "porsche|macan|2016": {
     "sum": 555500,
@@ -4015,9 +4015,9 @@
     "avg": 18405
   },
   "mercedes-benz|gl 450|2014": {
-    "sum": 1125000,
-    "count": 78,
-    "avg": 14423
+    "sum": 1137000,
+    "count": 79,
+    "avg": 14392
   },
   "bmw|m240|2017": {
     "sum": 239584,
@@ -4340,9 +4340,9 @@
     "avg": 9980
   },
   "toyota|highlander|2020": {
-    "sum": 864100,
-    "count": 34,
-    "avg": 25414
+    "sum": 888000,
+    "count": 35,
+    "avg": 25371
   },
   "lexus|is 350|2023": {
     "sum": 491500,
@@ -6260,9 +6260,9 @@
     "avg": 5644
   },
   "dodge|ram|2025": {
-    "sum": 1436000,
-    "count": 25,
-    "avg": 57440
+    "sum": 1504000,
+    "count": 26,
+    "avg": 57846
   },
   "dodge|challenger|2022": {
     "sum": 589300,
@@ -6920,9 +6920,9 @@
     "avg": 4371
   },
   "honda|fit|2011": {
-    "sum": 268470,
-    "count": 65,
-    "avg": 4130
+    "sum": 272470,
+    "count": 66,
+    "avg": 4128
   },
   "opel|corsa|2007": {
     "sum": 33800,
@@ -7855,9 +7855,9 @@
     "avg": 52000
   },
   "bmw|x2|2018": {
-    "sum": 630900,
-    "count": 50,
-    "avg": 12618
+    "sum": 641900,
+    "count": 51,
+    "avg": 12586
   },
   "kia|soul|2017": {
     "sum": 123700,
@@ -8280,9 +8280,9 @@
     "avg": 7200
   },
   "toyota|camry|2026": {
-    "sum": 661700,
-    "count": 31,
-    "avg": 21345
+    "sum": 685700,
+    "count": 32,
+    "avg": 21428
   },
   "chevrolet|trax|2019": {
     "sum": 14200,
@@ -12000,9 +12000,9 @@
     "avg": 3959
   },
   "hyundai|sonata|2011": {
-    "sum": 87100,
-    "count": 21,
-    "avg": 4147
+    "sum": 91600,
+    "count": 22,
+    "avg": 4163
   },
   "mercedes-benz|gla 250|2022": {
     "sum": 543800,
@@ -17280,8 +17280,8 @@
     "avg": 6800
   },
   "kia|rio|2013": {
-    "sum": 103500,
-    "count": 23,
+    "sum": 108000,
+    "count": 24,
     "avg": 4500
   },
   "toyota|land cruiser|2018": {
@@ -17700,8 +17700,8 @@
     "avg": 18150
   },
   "mitsubishi|eclipse|2007": {
-    "sum": 123500,
-    "count": 13,
+    "sum": 133000,
+    "count": 14,
     "avg": 9500
   },
   "mercedes-benz|gls 450 amg|2018": {
@@ -19665,8 +19665,8 @@
     "avg": 3464
   },
   "suzuki|swift|2016": {
-    "sum": 5500,
-    "count": 1,
+    "sum": 11000,
+    "count": 2,
     "avg": 5500
   }
 }
