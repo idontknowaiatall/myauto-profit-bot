@@ -270,9 +270,9 @@
     "avg": 9872
   },
   "audi|q3|2018": {
-    "sum": 696541,
-    "count": 57,
-    "avg": 12220
+    "sum": 707541,
+    "count": 58,
+    "avg": 12198
   },
   "bmw|x5|2023": {
     "sum": 6595050,
@@ -400,9 +400,9 @@
     "avg": 15917
   },
   "volkswagen|jetta|2019": {
-    "sum": 1467045,
-    "count": 166,
-    "avg": 8837
+    "sum": 1476545,
+    "count": 167,
+    "avg": 8841
   },
   "ford|focus|2017": {
     "sum": 67650,
@@ -640,8 +640,8 @@
     "avg": 4200
   },
   "bmw|328|2013": {
-    "sum": 558227,
-    "count": 81,
+    "sum": 565127,
+    "count": 82,
     "avg": 6891
   },
   "nissan|kicks|2022": {
@@ -1180,9 +1180,9 @@
     "avg": 5142
   },
   "bmw|528|2011": {
-    "sum": 405900,
-    "count": 57,
-    "avg": 7121
+    "sum": 412900,
+    "count": 58,
+    "avg": 7118
   },
   "opel|astra|1999": {
     "sum": 133458,
@@ -2005,9 +2005,9 @@
     "avg": 7522
   },
   "subaru|forester|2024": {
-    "sum": 513200,
-    "count": 39,
-    "avg": 13158
+    "sum": 522100,
+    "count": 40,
+    "avg": 13052
   },
   "chevrolet|trailblazer|2021": {
     "sum": 2230107,
@@ -2675,8 +2675,8 @@
     "avg": 4773
   },
   "subaru|crosstrek|2020": {
-    "sum": 869016,
-    "count": 87,
+    "sum": 879016,
+    "count": 88,
     "avg": 9988
   },
   "toyota|chr|2021": {
@@ -2725,9 +2725,9 @@
     "avg": 14940
   },
   "volkswagen|jetta|2012": {
-    "sum": 143091,
-    "count": 33,
-    "avg": 4336
+    "sum": 148391,
+    "count": 34,
+    "avg": 4364
   },
   "toyota|prius|2013": {
     "sum": 142800,
@@ -2840,9 +2840,9 @@
     "avg": 12798
   },
   "lexus|nx 200|2016": {
-    "sum": 749700,
-    "count": 51,
-    "avg": 14700
+    "sum": 764700,
+    "count": 52,
+    "avg": 14705
   },
   "jeep|gladiator|2021": {
     "sum": 184300,
@@ -2970,9 +2970,9 @@
     "avg": 8053
   },
   "jeep|renegade|2023": {
-    "sum": 243164,
-    "count": 37,
-    "avg": 6572
+    "sum": 253664,
+    "count": 38,
+    "avg": 6675
   },
   "audi|a4|2023": {
     "sum": 206864,
@@ -4265,9 +4265,9 @@
     "avg": 16275
   },
   "nissan|juke|2013": {
-    "sum": 481500,
-    "count": 99,
-    "avg": 4863
+    "sum": 485700,
+    "count": 100,
+    "avg": 4857
   },
   "smart|fortwo|2014": {
     "sum": 51800,
@@ -4505,9 +4505,9 @@
     "avg": 6176
   },
   "chevrolet|cruze|2016": {
-    "sum": 706012,
-    "count": 132,
-    "avg": 5348
+    "sum": 710912,
+    "count": 133,
+    "avg": 5345
   },
   "mercedes-benz|gls 450 amg|2024": {
     "sum": 2757000,
@@ -4675,9 +4675,9 @@
     "avg": 12734
   },
   "subaru|outback|2023": {
-    "sum": 946900,
-    "count": 69,
-    "avg": 13723
+    "sum": 959400,
+    "count": 70,
+    "avg": 13705
   },
   "bmw|m6|2014": {
     "sum": 43600,
@@ -6425,9 +6425,9 @@
     "avg": 62250
   },
   "mercedes-benz|cla 250|2021": {
-    "sum": 244000,
-    "count": 12,
-    "avg": 20333
+    "sum": 254500,
+    "count": 13,
+    "avg": 19576
   },
   "toyota|prius c|2018": {
     "sum": 50160,
@@ -7025,13 +7025,13 @@
     "avg": 13826
   },
   "volkswagen|cc|2014": {
-    "sum": 383500,
-    "count": 59,
+    "sum": 390000,
+    "count": 60,
     "avg": 6500
   },
   "mercedes-benz|glc 63 amg|2020": {
-    "sum": 4012000,
-    "count": 59,
+    "sum": 4080000,
+    "count": 60,
     "avg": 68000
   },
   "bmw|x1|2017": {
@@ -7055,8 +7055,8 @@
     "avg": 15750
   },
   "lexus|is 300|2017": {
-    "sum": 789900,
-    "count": 56,
+    "sum": 804000,
+    "count": 57,
     "avg": 14105
   },
   "nissan|armada|2015": {
@@ -12320,9 +12320,9 @@
     "avg": 2500
   },
   "toyota|corolla cross|2023": {
-    "sum": 123600,
-    "count": 8,
-    "avg": 15450
+    "sum": 134900,
+    "count": 9,
+    "avg": 14988
   },
   "land rover|range rover sport|2012": {
     "sum": 93700,
@@ -12530,9 +12530,9 @@
     "avg": 13000
   },
   "hyundai|tucson|2005": {
-    "sum": 24082,
-    "count": 8,
-    "avg": 3010
+    "sum": 26776,
+    "count": 9,
+    "avg": 2975
   },
   "chevrolet|tahoe|2016": {
     "sum": 67200,
@@ -17705,9 +17705,9 @@
     "avg": 9500
   },
   "mercedes-benz|gls 450 amg|2018": {
-    "sum": 214000,
-    "count": 10,
-    "avg": 21400
+    "sum": 233800,
+    "count": 11,
+    "avg": 21254
   },
   "vaz|2121 (niva)|2006": {
     "sum": 52800,
