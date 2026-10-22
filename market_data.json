@@ -270,9 +270,9 @@
     "avg": 9872
   },
   "audi|q3|2018": {
-    "sum": 674541,
-    "count": 55,
-    "avg": 12264
+    "sum": 685541,
+    "count": 56,
+    "avg": 12241
   },
   "bmw|x5|2023": {
     "sum": 6595050,
@@ -535,9 +535,9 @@
     "avg": 18933
   },
   "mini|cooper|2003": {
-    "sum": 80500,
-    "count": 37,
-    "avg": 2175
+    "sum": 82700,
+    "count": 38,
+    "avg": 2176
   },
   "ford|escape|2021": {
     "sum": 209000,
@@ -1875,9 +1875,9 @@
     "avg": 16071
   },
   "mercedes-benz|c 300|2016": {
-    "sum": 1522749,
-    "count": 125,
-    "avg": 12181
+    "sum": 1533249,
+    "count": 126,
+    "avg": 12168
   },
   "bmw|x5|2017": {
     "sum": 3885900,
@@ -2005,9 +2005,9 @@
     "avg": 7522
   },
   "subaru|forester|2024": {
-    "sum": 495400,
-    "count": 37,
-    "avg": 13389
+    "sum": 504300,
+    "count": 38,
+    "avg": 13271
   },
   "chevrolet|trailblazer|2021": {
     "sum": 2230107,
@@ -2675,8 +2675,8 @@
     "avg": 4773
   },
   "subaru|crosstrek|2020": {
-    "sum": 849016,
-    "count": 85,
+    "sum": 859016,
+    "count": 86,
     "avg": 9988
   },
   "toyota|chr|2021": {
@@ -2725,9 +2725,9 @@
     "avg": 14940
   },
   "volkswagen|jetta|2012": {
-    "sum": 132491,
-    "count": 31,
-    "avg": 4273
+    "sum": 137791,
+    "count": 32,
+    "avg": 4305
   },
   "toyota|prius|2013": {
     "sum": 142800,
@@ -4310,8 +4310,8 @@
     "avg": 25000
   },
   "land rover|range rover  velar|2018": {
-    "sum": 858000,
-    "count": 33,
+    "sum": 884000,
+    "count": 34,
     "avg": 26000
   },
   "hyundai|accent|2020": {
@@ -4965,8 +4965,8 @@
     "avg": 30983
   },
   "honda|step wagon|2014": {
-    "sum": 370700,
-    "count": 62,
+    "sum": 376700,
+    "count": 63,
     "avg": 5979
   },
   "fiat|500x|2015": {
@@ -5710,8 +5710,8 @@
     "avg": 38000
   },
   "toyota|rav 4|2026": {
-    "sum": 1435000,
-    "count": 41,
+    "sum": 1470000,
+    "count": 42,
     "avg": 35000
   },
   "mercedes-benz|gle 580|2021": {
@@ -7025,13 +7025,13 @@
     "avg": 13826
   },
   "volkswagen|cc|2014": {
-    "sum": 370500,
-    "count": 57,
+    "sum": 377000,
+    "count": 58,
     "avg": 6500
   },
   "mercedes-benz|glc 63 amg|2020": {
-    "sum": 3876000,
-    "count": 57,
+    "sum": 3944000,
+    "count": 58,
     "avg": 68000
   },
   "bmw|x1|2017": {
@@ -8335,9 +8335,9 @@
     "avg": 4197
   },
   "subaru|ascent|2019": {
-    "sum": 352300,
-    "count": 30,
-    "avg": 11743
+    "sum": 363800,
+    "count": 31,
+    "avg": 11735
   },
   "toyota|prius|2010": {
     "sum": 96900,
@@ -12320,9 +12320,9 @@
     "avg": 2500
   },
   "toyota|corolla cross|2023": {
-    "sum": 101000,
-    "count": 6,
-    "avg": 16833
+    "sum": 112300,
+    "count": 7,
+    "avg": 16042
   },
   "land rover|range rover sport|2012": {
     "sum": 93700,
@@ -14160,9 +14160,9 @@
     "avg": 14950
   },
   "hyundai|ix 35|2012": {
-    "sum": 76500,
-    "count": 13,
-    "avg": 5884
+    "sum": 82600,
+    "count": 14,
+    "avg": 5900
   },
   "mercedes-benz|b 170|2009": {
     "sum": 4500,
@@ -14635,9 +14635,9 @@
     "avg": 12900
   },
   "suzuki|sx 4|2006": {
-    "sum": 6000,
-    "count": 2,
-    "avg": 3000
+    "sum": 9300,
+    "count": 3,
+    "avg": 3100
   },
   "toyota|esquire|2016": {
     "sum": 27900,
@@ -16295,9 +16295,9 @@
     "avg": 15700
   },
   "bmw|m3|2025": {
-    "sum": 842237,
-    "count": 16,
-    "avg": 52639
+    "sum": 917737,
+    "count": 17,
+    "avg": 53984
   },
   "bmw|135|2021": {
     "sum": 21807,
@@ -16720,8 +16720,8 @@
     "avg": 5700
   },
   "opel|vita|2002": {
-    "sum": 11000,
-    "count": 5,
+    "sum": 13200,
+    "count": 6,
     "avg": 2200
   },
   "citroen|c3 aircross|2018": {
@@ -17705,9 +17705,9 @@
     "avg": 9500
   },
   "mercedes-benz|gls 450 amg|2018": {
-    "sum": 174400,
-    "count": 8,
-    "avg": 21800
+    "sum": 194200,
+    "count": 9,
+    "avg": 21577
   },
   "vaz|2121 (niva)|2006": {
     "sum": 52800,
@@ -18270,8 +18270,8 @@
     "avg": 34500
   },
   "ford|mustang mach-e|2024": {
-    "sum": 148000,
-    "count": 10,
+    "sum": 162800,
+    "count": 11,
     "avg": 14800
   },
   "audi|allroad|2018": {
