@@ -15,9 +15,9 @@
     "avg": 11150
   },
   "bmw|428|2015": {
-    "sum": 2747744,
-    "count": 267,
-    "avg": 10291
+    "sum": 2757544,
+    "count": 268,
+    "avg": 10289
   },
   "skoda|superb|2020": {
     "sum": 582200,
@@ -25,14 +25,14 @@
     "avg": 20075
   },
   "mercedes-benz|gle 350|2022": {
-    "sum": 7797472,
-    "count": 194,
-    "avg": 40193
+    "sum": 7837472,
+    "count": 195,
+    "avg": 40192
   },
   "mazda|cx-5|2019": {
-    "sum": 3996700,
-    "count": 293,
-    "avg": 13640
+    "sum": 4009900,
+    "count": 294,
+    "avg": 13639
   },
   "mazda|mazda 3|2014": {
     "sum": 206900,
@@ -250,9 +250,9 @@
     "avg": 9147
   },
   "toyota|camry|2021": {
-    "sum": 5915098,
-    "count": 424,
-    "avg": 13950
+    "sum": 5946598,
+    "count": 426,
+    "avg": 13959
   },
   "ford|mustang|2016": {
     "sum": 886000,
@@ -260,9 +260,9 @@
     "avg": 10674
   },
   "mitsubishi|pajero io|1999": {
-    "sum": 169200,
-    "count": 42,
-    "avg": 4028
+    "sum": 173200,
+    "count": 43,
+    "avg": 4027
   },
   "land rover|discovery sport|2015": {
     "sum": 217200,
@@ -275,9 +275,9 @@
     "avg": 12022
   },
   "bmw|x5|2023": {
-    "sum": 8183550,
-    "count": 166,
-    "avg": 49298
+    "sum": 8242550,
+    "count": 167,
+    "avg": 49356
   },
   "toyota|rav 4|2019": {
     "sum": 2803342,
@@ -390,9 +390,9 @@
     "avg": 31370
   },
   "toyota|rav 4|2022": {
-    "sum": 3732300,
-    "count": 178,
-    "avg": 20967
+    "sum": 3750100,
+    "count": 179,
+    "avg": 20950
   },
   "alfa romeo|giulia|2023": {
     "sum": 414100,
@@ -435,9 +435,9 @@
     "avg": 16993
   },
   "lexus|nx 250|2023": {
-    "sum": 1946900,
-    "count": 73,
-    "avg": 26669
+    "sum": 1977400,
+    "count": 74,
+    "avg": 26721
   },
   "lexus|nx 300|2021": {
     "sum": 1905640,
@@ -455,9 +455,9 @@
     "avg": 22936
   },
   "hyundai|elantra|2023": {
-    "sum": 7516493,
-    "count": 718,
-    "avg": 10468
+    "sum": 7527493,
+    "count": 719,
+    "avg": 10469
   },
   "mazda|cx-5|2024": {
     "sum": 2280900,
@@ -470,14 +470,14 @@
     "avg": 11823
   },
   "subaru|crosstrek|2024": {
-    "sum": 4212664,
-    "count": 277,
-    "avg": 15208
+    "sum": 4228564,
+    "count": 278,
+    "avg": 15210
   },
   "subaru|forester|2020": {
-    "sum": 3399541,
-    "count": 313,
-    "avg": 10861
+    "sum": 3410341,
+    "count": 314,
+    "avg": 10860
   },
   "bmw|x1|2021": {
     "sum": 113850,
@@ -560,14 +560,14 @@
     "avg": 19975
   },
   "mazda|cx-5|2021": {
-    "sum": 2555000,
-    "count": 188,
-    "avg": 13590
+    "sum": 2569100,
+    "count": 189,
+    "avg": 13593
   },
   "hyundai|tucson|2022": {
-    "sum": 3659150,
-    "count": 231,
-    "avg": 15840
+    "sum": 3693150,
+    "count": 233,
+    "avg": 15850
   },
   "audi|a3|2023": {
     "sum": 347485,
@@ -620,9 +620,9 @@
     "avg": 13350
   },
   "subaru|forester|2019": {
-    "sum": 740417,
-    "count": 69,
-    "avg": 10730
+    "sum": 753217,
+    "count": 70,
+    "avg": 10760
   },
   "kia|telluride|2024": {
     "sum": 36800,
@@ -740,9 +740,9 @@
     "avg": 11871
   },
   "toyota|rav 4|2025": {
-    "sum": 850000,
-    "count": 55,
-    "avg": 15454
+    "sum": 862500,
+    "count": 56,
+    "avg": 15401
   },
   "kia|sportage|2020": {
     "sum": 51600,
@@ -775,9 +775,9 @@
     "avg": 12648
   },
   "kia|sportage|2022": {
-    "sum": 944000,
-    "count": 53,
-    "avg": 17811
+    "sum": 963000,
+    "count": 54,
+    "avg": 17833
   },
   "mercedes-benz|e 400|2015": {
     "sum": 574277,
@@ -980,9 +980,9 @@
     "avg": 27400
   },
   "bmw|m340|2020": {
-    "sum": 1523500,
-    "count": 61,
-    "avg": 24975
+    "sum": 1552300,
+    "count": 62,
+    "avg": 25037
   },
   "toyota|mark x|2006": {
     "sum": 16000,
@@ -990,9 +990,9 @@
     "avg": 4000
   },
   "mercedes-benz|e 350|2015": {
-    "sum": 2076146,
-    "count": 175,
-    "avg": 11863
+    "sum": 2099546,
+    "count": 177,
+    "avg": 11861
   },
   "bmw|x7|2020": {
     "sum": 3096500,
@@ -1025,9 +1025,9 @@
     "avg": 55023
   },
   "bmw|x5|2022": {
-    "sum": 14529977,
-    "count": 362,
-    "avg": 40138
+    "sum": 14571977,
+    "count": 363,
+    "avg": 40143
   },
   "alfa romeo|stelvio|2017": {
     "sum": 412300,
@@ -1140,9 +1140,9 @@
     "avg": 18142
   },
   "toyota|corolla|2023": {
-    "sum": 1012855,
-    "count": 87,
-    "avg": 11642
+    "sum": 1019755,
+    "count": 88,
+    "avg": 11588
   },
   "mercedes-benz|c 250|2013": {
     "sum": 260735,
@@ -1235,8 +1235,8 @@
     "avg": 18095
   },
   "hyundai|elantra|2022": {
-    "sum": 6207008,
-    "count": 567,
+    "sum": 6218008,
+    "count": 568,
     "avg": 10947
   },
   "jeep|cherokee|2017": {
@@ -1300,9 +1300,9 @@
     "avg": 14156
   },
   "hyundai|elantra|2014": {
-    "sum": 586500,
-    "count": 113,
-    "avg": 5190
+    "sum": 591300,
+    "count": 114,
+    "avg": 5186
   },
   "toyota|venza|2021": {
     "sum": 638916,
@@ -1310,9 +1310,9 @@
     "avg": 18254
   },
   "dodge|challenger|2020": {
-    "sum": 3226500,
-    "count": 82,
-    "avg": 39347
+    "sum": 3238000,
+    "count": 83,
+    "avg": 39012
   },
   "mercedes-benz|gle 350|2021": {
     "sum": 8968200,
@@ -1325,14 +1325,14 @@
     "avg": 9223
   },
   "toyota|camry|2019": {
-    "sum": 2861433,
-    "count": 218,
-    "avg": 13125
+    "sum": 2873933,
+    "count": 219,
+    "avg": 13122
   },
   "toyota|rav 4|2024": {
-    "sum": 2761800,
-    "count": 108,
-    "avg": 25572
+    "sum": 2791300,
+    "count": 109,
+    "avg": 25608
   },
   "mercedes-benz|c 300|2012": {
     "sum": 418325,
@@ -1550,9 +1550,9 @@
     "avg": 7188
   },
   "mercedes-benz|gle 400|2017": {
-    "sum": 1251500,
-    "count": 48,
-    "avg": 26072
+    "sum": 1271000,
+    "count": 49,
+    "avg": 25938
   },
   "bmw|x3|2022": {
     "sum": 8758200,
@@ -1585,9 +1585,9 @@
     "avg": 10334
   },
   "mercedes-benz|e 300|2017": {
-    "sum": 1093800,
-    "count": 60,
-    "avg": 18230
+    "sum": 1109800,
+    "count": 61,
+    "avg": 18193
   },
   "kia|sportage|2023": {
     "sum": 3158125,
@@ -1595,14 +1595,14 @@
     "avg": 17842
   },
   "volkswagen|jetta|2016": {
-    "sum": 1491611,
-    "count": 227,
-    "avg": 6570
+    "sum": 1498211,
+    "count": 228,
+    "avg": 6571
   },
   "hyundai|sonata|2018": {
-    "sum": 223248,
-    "count": 28,
-    "avg": 7973
+    "sum": 230448,
+    "count": 29,
+    "avg": 7946
   },
   "toyota|corolla|2026": {
     "sum": 2089757,
@@ -1765,9 +1765,9 @@
     "avg": 2106
   },
   "bmw|535|2014": {
-    "sum": 1060900,
-    "count": 96,
-    "avg": 11051
+    "sum": 1070400,
+    "count": 97,
+    "avg": 11035
   },
   "bmw|x6|2015": {
     "sum": 1243600,
@@ -1780,9 +1780,9 @@
     "avg": 17234
   },
   "hyundai|sonata|2017": {
-    "sum": 374400,
-    "count": 50,
-    "avg": 7488
+    "sum": 382800,
+    "count": 51,
+    "avg": 7505
   },
   "bmw|330|2021": {
     "sum": 2309648,
@@ -1850,9 +1850,9 @@
     "avg": 21887
   },
   "bmw|540|2021": {
-    "sum": 2877650,
-    "count": 90,
-    "avg": 31973
+    "sum": 2892281,
+    "count": 91,
+    "avg": 31783
   },
   "toyota|camry|2013": {
     "sum": 931621,
@@ -1950,9 +1950,9 @@
     "avg": 6110
   },
   "mitsubishi|pajero io|2001": {
-    "sum": 97000,
-    "count": 22,
-    "avg": 4409
+    "sum": 101900,
+    "count": 23,
+    "avg": 4430
   },
   "nissan|murano|2010": {
     "sum": 11250,
@@ -1990,9 +1990,9 @@
     "avg": 24000
   },
   "volkswagen|passat|2018": {
-    "sum": 227200,
-    "count": 28,
-    "avg": 8114
+    "sum": 235200,
+    "count": 29,
+    "avg": 8110
   },
   "ford|fiesta|2014": {
     "sum": 156800,
@@ -2085,9 +2085,9 @@
     "avg": 2951
   },
   "toyota|camry|2017": {
-    "sum": 619577,
-    "count": 73,
-    "avg": 8487
+    "sum": 628677,
+    "count": 74,
+    "avg": 8495
   },
   "mercedes-benz|s 500|2022": {
     "sum": 2966600,
@@ -2170,9 +2170,9 @@
     "avg": 11095
   },
   "toyota|rav 4|2020": {
-    "sum": 2853200,
-    "count": 165,
-    "avg": 17292
+    "sum": 2869700,
+    "count": 166,
+    "avg": 17287
   },
   "ford|focus|2011": {
     "sum": 25885,
@@ -2180,9 +2180,9 @@
     "avg": 2876
   },
   "toyota|4 runner|2021": {
-    "sum": 1795195,
-    "count": 68,
-    "avg": 26399
+    "sum": 1812895,
+    "count": 69,
+    "avg": 26273
   },
   "mitsubishi|outlander sport|2017": {
     "sum": 335700,
@@ -2325,14 +2325,14 @@
     "avg": 4200
   },
   "jeep|grand cherokee|2014": {
-    "sum": 1015400,
-    "count": 87,
-    "avg": 11671
+    "sum": 1039500,
+    "count": 89,
+    "avg": 11679
   },
   "honda|hr-v|2022": {
-    "sum": 2345000,
-    "count": 163,
-    "avg": 14386
+    "sum": 2356800,
+    "count": 164,
+    "avg": 14370
   },
   "volkswagen|atlas|2024": {
     "sum": 119500,
@@ -2340,9 +2340,9 @@
     "avg": 29875
   },
   "ford|mustang|2018": {
-    "sum": 1222200,
-    "count": 79,
-    "avg": 15470
+    "sum": 1245100,
+    "count": 80,
+    "avg": 15563
   },
   "audi|a5|2017": {
     "sum": 52950,
@@ -2425,9 +2425,9 @@
     "avg": 12355
   },
   "volkswagen|passat|2016": {
-    "sum": 1088604,
-    "count": 151,
-    "avg": 7209
+    "sum": 1095104,
+    "count": 152,
+    "avg": 7204
   },
   "ford|ecosport|2017": {
     "sum": 44400,
@@ -2485,9 +2485,9 @@
     "avg": 66562
   },
   "hyundai|sonata|2013": {
-    "sum": 238982,
-    "count": 50,
-    "avg": 4779
+    "sum": 242782,
+    "count": 51,
+    "avg": 4760
   },
   "nissan|presage|2003": {
     "sum": 8100,
@@ -2495,9 +2495,9 @@
     "avg": 2700
   },
   "subaru|crosstrek|2018": {
-    "sum": 1563590,
-    "count": 169,
-    "avg": 9252
+    "sum": 1574371,
+    "count": 170,
+    "avg": 9261
   },
   "bmw|x5|2005": {
     "sum": 555600,
@@ -2545,9 +2545,9 @@
     "avg": 50320
   },
   "mercedes-benz|e 350|2011": {
-    "sum": 671900,
-    "count": 66,
-    "avg": 10180
+    "sum": 683700,
+    "count": 67,
+    "avg": 10204
   },
   "toyota|camry|2012": {
     "sum": 393293,
@@ -2670,9 +2670,9 @@
     "avg": 12877
   },
   "ford|escape|2013": {
-    "sum": 128866,
-    "count": 28,
-    "avg": 4602
+    "sum": 133366,
+    "count": 29,
+    "avg": 4598
   },
   "subaru|crosstrek|2020": {
     "sum": 1001116,
@@ -2680,9 +2680,9 @@
     "avg": 10011
   },
   "toyota|chr|2021": {
-    "sum": 914316,
-    "count": 82,
-    "avg": 11150
+    "sum": 929616,
+    "count": 83,
+    "avg": 11200
   },
   "jeep|compass|2022": {
     "sum": 632900,
@@ -2800,9 +2800,9 @@
     "avg": 16738
   },
   "chevrolet|trax|2024": {
-    "sum": 743700,
-    "count": 65,
-    "avg": 11441
+    "sum": 748800,
+    "count": 66,
+    "avg": 11345
   },
   "mercedes-benz|ml 350|2011": {
     "sum": 159000,
@@ -3030,9 +3030,9 @@
     "avg": 21963
   },
   "hyundai|elantra|2018": {
-    "sum": 431700,
-    "count": 58,
-    "avg": 7443
+    "sum": 439500,
+    "count": 59,
+    "avg": 7449
   },
   "audi|a3|2026": {
     "sum": 21695,
@@ -3080,9 +3080,9 @@
     "avg": 7354
   },
   "bmw|x5|2015": {
-    "sum": 5772549,
-    "count": 404,
-    "avg": 14288
+    "sum": 5786049,
+    "count": 405,
+    "avg": 14286
   },
   "bmw|320|2005": {
     "sum": 9500,
@@ -3195,9 +3195,9 @@
     "avg": 18136
   },
   "toyota|corolla|2020": {
-    "sum": 1101800,
-    "count": 90,
-    "avg": 12242
+    "sum": 1109300,
+    "count": 91,
+    "avg": 12190
   },
   "audi|q5|2021": {
     "sum": 41539,
@@ -3285,9 +3285,9 @@
     "avg": 5407
   },
   "opel|corsa|1998": {
-    "sum": 11200,
-    "count": 6,
-    "avg": 1866
+    "sum": 12800,
+    "count": 7,
+    "avg": 1828
   },
   "subaru|xv crosstrek|2013": {
     "sum": 91633,
@@ -3655,9 +3655,9 @@
     "avg": 27730
   },
   "mazda|cx-5|2022": {
-    "sum": 1075050,
-    "count": 72,
-    "avg": 14931
+    "sum": 1094250,
+    "count": 73,
+    "avg": 14989
   },
   "mitsubishi|outlander|2015": {
     "sum": 284800,
@@ -3690,9 +3690,9 @@
     "avg": 3000
   },
   "opel|astra|1998": {
-    "sum": 41700,
-    "count": 18,
-    "avg": 2316
+    "sum": 44500,
+    "count": 19,
+    "avg": 2342
   },
   "hyundai|palisade|2023": {
     "sum": 203000,
@@ -3715,9 +3715,9 @@
     "avg": 20566
   },
   "hyundai|elantra|2021": {
-    "sum": 2825114,
-    "count": 283,
-    "avg": 9982
+    "sum": 2837214,
+    "count": 284,
+    "avg": 9990
   },
   "audi|q7|2016": {
     "sum": 457400,
@@ -3975,9 +3975,9 @@
     "avg": 19050
   },
   "volkswagen|passat|2008": {
-    "sum": 32000,
-    "count": 16,
-    "avg": 2000
+    "sum": 34400,
+    "count": 17,
+    "avg": 2023
   },
   "bmw|x6|2012": {
     "sum": 609193,
@@ -4085,9 +4085,9 @@
     "avg": 41223
   },
   "alfa romeo|giulia|2017": {
-    "sum": 333700,
-    "count": 27,
-    "avg": 12359
+    "sum": 347700,
+    "count": 28,
+    "avg": 12417
   },
   "lexus|nx 200|2017": {
     "sum": 2589982,
@@ -4110,9 +4110,9 @@
     "avg": 24785
   },
   "jeep|compass|2018": {
-    "sum": 1120298,
-    "count": 132,
-    "avg": 8487
+    "sum": 1127898,
+    "count": 133,
+    "avg": 8480
   },
   "mercedes-benz|a 180|2021": {
     "sum": 585000,
@@ -4140,9 +4140,9 @@
     "avg": 20705
   },
   "mercedes-benz|e 350|2013": {
-    "sum": 1061400,
-    "count": 107,
-    "avg": 9919
+    "sum": 1070000,
+    "count": 108,
+    "avg": 9907
   },
   "mercedes-benz|cla 250|2014": {
     "sum": 958400,
@@ -4290,9 +4290,9 @@
     "avg": 13811
   },
   "lexus|gx 550|2025": {
-    "sum": 1841700,
-    "count": 30,
-    "avg": 61390
+    "sum": 1886900,
+    "count": 31,
+    "avg": 60867
   },
   "bmw|m850|2020": {
     "sum": 600000,
@@ -4320,9 +4320,9 @@
     "avg": 9200
   },
   "bmw|x1|2018": {
-    "sum": 435000,
-    "count": 35,
-    "avg": 12428
+    "sum": 445000,
+    "count": 36,
+    "avg": 12361
   },
   "toyota|vitz|2008": {
     "sum": 51862,
@@ -4405,9 +4405,9 @@
     "avg": 5909
   },
   "bmw|x6|2023": {
-    "sum": 3027690,
-    "count": 54,
-    "avg": 56068
+    "sum": 3054490,
+    "count": 55,
+    "avg": 55536
   },
   "subaru|legacy|2016": {
     "sum": 119000,
@@ -4480,9 +4480,9 @@
     "avg": 16970
   },
   "mercedes-benz|gla 250|2018": {
-    "sum": 1084100,
-    "count": 88,
-    "avg": 12319
+    "sum": 1097800,
+    "count": 89,
+    "avg": 12334
   },
   "opel|astra|1997": {
     "sum": 38449,
@@ -4505,9 +4505,9 @@
     "avg": 6176
   },
   "chevrolet|cruze|2016": {
-    "sum": 928762,
-    "count": 173,
-    "avg": 5368
+    "sum": 940462,
+    "count": 175,
+    "avg": 5374
   },
   "mercedes-benz|gls 450 amg|2024": {
     "sum": 3537000,
@@ -4645,8 +4645,8 @@
     "avg": 24443
   },
   "chevrolet|corvette|2016": {
-    "sum": 880000,
-    "count": 22,
+    "sum": 920000,
+    "count": 23,
     "avg": 40000
   },
   "mercedes-benz|cls 400|2016": {
@@ -4725,13 +4725,13 @@
     "avg": 6700
   },
   "toyota|ist|2003": {
-    "sum": 87700,
-    "count": 31,
-    "avg": 2829
+    "sum": 90350,
+    "count": 32,
+    "avg": 2823
   },
   "nissan|juke|2017": {
-    "sum": 580964,
-    "count": 83,
+    "sum": 587964,
+    "count": 84,
     "avg": 6999
   },
   "mercedes-benz|sl 500|1998": {
@@ -4835,8 +4835,8 @@
     "avg": 20188
   },
   "porsche|cayenne gts|2014": {
-    "sum": 203000,
-    "count": 14,
+    "sum": 217500,
+    "count": 15,
     "avg": 14500
   },
   "bmw|520|1997": {
@@ -5275,9 +5275,9 @@
     "avg": 2412
   },
   "honda|cr-v|2021": {
-    "sum": 1031800,
-    "count": 72,
-    "avg": 14330
+    "sum": 1041300,
+    "count": 73,
+    "avg": 14264
   },
   "ford|flex|2012": {
     "sum": 14400,
@@ -5485,9 +5485,9 @@
     "avg": 1152
   },
   "mercedes-benz|gl 450|2015": {
-    "sum": 1022100,
-    "count": 75,
-    "avg": 13628
+    "sum": 1035600,
+    "count": 76,
+    "avg": 13626
   },
   "land rover|range rover evoque|2013": {
     "sum": 43200,
@@ -6010,9 +6010,9 @@
     "avg": 10483
   },
   "honda|accord|2023": {
-    "sum": 568400,
-    "count": 36,
-    "avg": 15788
+    "sum": 587200,
+    "count": 37,
+    "avg": 15870
   },
   "bmw|320|2020": {
     "sum": 59700,
@@ -6280,9 +6280,9 @@
     "avg": 7417
   },
   "mercedes-benz|gla 250|2017": {
-    "sum": 223000,
-    "count": 19,
-    "avg": 11736
+    "sum": 234300,
+    "count": 20,
+    "avg": 11715
   },
   "mercedes-benz|gle 53|2024": {
     "sum": 6182800,
@@ -6300,9 +6300,9 @@
     "avg": 13300
   },
   "toyota|avalon|2014": {
-    "sum": 211400,
-    "count": 22,
-    "avg": 9609
+    "sum": 220900,
+    "count": 23,
+    "avg": 9604
   },
   "bmw|m340|2025": {
     "sum": 17500,
@@ -6445,9 +6445,9 @@
     "avg": 4900
   },
   "mercedes-benz|gla 250|2015": {
-    "sum": 661748,
-    "count": 68,
-    "avg": 9731
+    "sum": 672748,
+    "count": 69,
+    "avg": 9749
   },
   "mini|countryman|2014": {
     "sum": 215300,
@@ -6455,9 +6455,9 @@
     "avg": 6728
   },
   "subaru|outback|2018": {
-    "sum": 853850,
-    "count": 80,
-    "avg": 10673
+    "sum": 864650,
+    "count": 81,
+    "avg": 10674
   },
   "lexus|nx 350|2026": {
     "sum": 179300,
@@ -6655,9 +6655,9 @@
     "avg": 19866
   },
   "audi|q7|2014": {
-    "sum": 281300,
-    "count": 26,
-    "avg": 10819
+    "sum": 288800,
+    "count": 27,
+    "avg": 10696
   },
   "audi|a4|2006": {
     "sum": 2600,
@@ -6715,9 +6715,9 @@
     "avg": 8341
   },
   "bmw|428|2016": {
-    "sum": 543297,
-    "count": 53,
-    "avg": 10250
+    "sum": 555197,
+    "count": 54,
+    "avg": 10281
   },
   "hummer|h 2|2007": {
     "sum": 18200,
@@ -6745,9 +6745,9 @@
     "avg": 4000
   },
   "chevrolet|trailblazer|2024": {
-    "sum": 621600,
-    "count": 43,
-    "avg": 14455
+    "sum": 640100,
+    "count": 44,
+    "avg": 14547
   },
   "jeep|patriot|2013": {
     "sum": 21400,
@@ -6885,9 +6885,9 @@
     "avg": 5566
   },
   "mini|countryman|2013": {
-    "sum": 29200,
-    "count": 6,
-    "avg": 4866
+    "sum": 34200,
+    "count": 7,
+    "avg": 4885
   },
   "mini|countryman|2020": {
     "sum": 18300,
@@ -7420,9 +7420,9 @@
     "avg": 13833
   },
   "bmw|x1|2016": {
-    "sum": 723670,
-    "count": 77,
-    "avg": 9398
+    "sum": 734670,
+    "count": 78,
+    "avg": 9418
   },
   "mercedes-benz|e 320|2004": {
     "sum": 130500,
@@ -8095,9 +8095,9 @@
     "avg": 10935
   },
   "mercedes-benz|glk 350|2013": {
-    "sum": 808310,
-    "count": 88,
-    "avg": 9185
+    "sum": 817300,
+    "count": 89,
+    "avg": 9183
   },
   "cadillac|escalade|2021": {
     "sum": 680000,
@@ -8180,9 +8180,9 @@
     "avg": 8988
   },
   "nissan|march|2003": {
-    "sum": 34050,
-    "count": 20,
-    "avg": 1702
+    "sum": 35500,
+    "count": 21,
+    "avg": 1690
   },
   "volvo|s 90|2018": {
     "sum": 99500,
@@ -8450,9 +8450,9 @@
     "avg": 2550
   },
   "lexus|is 250|2014": {
-    "sum": 374800,
-    "count": 36,
-    "avg": 10411
+    "sum": 384600,
+    "count": 37,
+    "avg": 10394
   },
   "audi|a4|2008": {
     "sum": 17723,
@@ -8885,9 +8885,9 @@
     "avg": 23833
   },
   "mini|cooper|2023": {
-    "sum": 430800,
-    "count": 19,
-    "avg": 22673
+    "sum": 453800,
+    "count": 20,
+    "avg": 22690
   },
   "maserati|ghibli|2014": {
     "sum": 449400,
@@ -9535,9 +9535,9 @@
     "avg": 3454
   },
   "lexus|is 300|2021": {
-    "sum": 545616,
-    "count": 31,
-    "avg": 17600
+    "sum": 570616,
+    "count": 32,
+    "avg": 17831
   },
   "audi|a8|2015": {
     "sum": 415100,
@@ -10015,9 +10015,9 @@
     "avg": 22731
   },
   "alfa romeo|stelvio|2018": {
-    "sum": 2434100,
-    "count": 100,
-    "avg": 24341
+    "sum": 2464800,
+    "count": 101,
+    "avg": 24403
   },
   "toyota|aqua|2016": {
     "sum": 33500,
@@ -10475,9 +10475,9 @@
     "avg": 3500
   },
   "volkswagen|atlas|2020": {
-    "sum": 616800,
-    "count": 29,
-    "avg": 21268
+    "sum": 636600,
+    "count": 30,
+    "avg": 21220
   },
   "volvo|s 60|2019": {
     "sum": 732500,
@@ -10585,9 +10585,9 @@
     "avg": 1352
   },
   "mercedes-benz|c 230|2006": {
-    "sum": 7273,
-    "count": 2,
-    "avg": 3636
+    "sum": 11073,
+    "count": 3,
+    "avg": 3691
   },
   "bmw|530|2024": {
     "sum": 1157700,
@@ -10855,9 +10855,9 @@
     "avg": 27250
   },
   "bmw|525|1998": {
-    "sum": 5350,
-    "count": 2,
-    "avg": 2675
+    "sum": 7950,
+    "count": 3,
+    "avg": 2650
   },
   "acura|mdx|2017": {
     "sum": 14000,
@@ -10900,9 +10900,9 @@
     "avg": 14833
   },
   "bmw|335|2014": {
-    "sum": 268699,
-    "count": 25,
-    "avg": 10747
+    "sum": 278199,
+    "count": 26,
+    "avg": 10699
   },
   "volkswagen|passat|2019": {
     "sum": 59800,
@@ -11175,9 +11175,9 @@
     "avg": 4750
   },
   "subaru|xv crosstrek|2017": {
-    "sum": 60600,
-    "count": 6,
-    "avg": 10100
+    "sum": 70900,
+    "count": 7,
+    "avg": 10128
   },
   "porsche|911|2013": {
     "sum": 45000,
@@ -11785,9 +11785,9 @@
     "avg": 17500
   },
   "bmw|m4|2026": {
-    "sum": 342500,
-    "count": 7,
-    "avg": 48928
+    "sum": 391500,
+    "count": 8,
+    "avg": 48937
   },
   "ford|bronco sport|2025": {
     "sum": 14500,
@@ -12325,9 +12325,9 @@
     "avg": 15240
   },
   "land rover|range rover sport|2012": {
-    "sum": 127700,
-    "count": 12,
-    "avg": 10641
+    "sum": 136200,
+    "count": 13,
+    "avg": 10476
   },
   "scion|ia|2015": {
     "sum": 13000,
@@ -12930,9 +12930,9 @@
     "avg": 11500
   },
   "mercedes-benz|c 240|2004": {
-    "sum": 10000,
-    "count": 5,
-    "avg": 2000
+    "sum": 11900,
+    "count": 6,
+    "avg": 1983
   },
   "bmw|m850|2019": {
     "sum": 104800,
@@ -13385,9 +13385,9 @@
     "avg": 7500
   },
   "volkswagen|jetta|1999": {
-    "sum": 1537,
-    "count": 1,
-    "avg": 1537
+    "sum": 3037,
+    "count": 2,
+    "avg": 1518
   },
   "lexus|rx 350|2017": {
     "sum": 137740,
@@ -13680,9 +13680,9 @@
     "avg": 2400
   },
   "mercedes-benz|c 230|2002": {
-    "sum": 18000,
-    "count": 6,
-    "avg": 3000
+    "sum": 20300,
+    "count": 7,
+    "avg": 2900
   },
   "opel|astra|1995": {
     "sum": 2838,
@@ -14240,9 +14240,9 @@
     "avg": 2500
   },
   "mercedes-benz|c 180|2005": {
-    "sum": 2800,
-    "count": 1,
-    "avg": 2800
+    "sum": 6400,
+    "count": 2,
+    "avg": 3200
   },
   "ford|ranger|1995": {
     "sum": 8500,
@@ -14570,9 +14570,9 @@
     "avg": 4500
   },
   "fiat|500 abarth|2017": {
-    "sum": 147400,
-    "count": 19,
-    "avg": 7757
+    "sum": 154700,
+    "count": 20,
+    "avg": 7735
   },
   "bmw|325|2000": {
     "sum": 3200,
@@ -15020,9 +15020,9 @@
     "avg": 3400
   },
   "chevrolet|malibu|2019": {
-    "sum": 100000,
-    "count": 13,
-    "avg": 7692
+    "sum": 107200,
+    "count": 14,
+    "avg": 7657
   },
   "audi|s5|2013": {
     "sum": 18000,
@@ -15300,8 +15300,8 @@
     "avg": 6700
   },
   "bmw|730|2017": {
-    "sum": 225000,
-    "count": 9,
+    "sum": 250000,
+    "count": 10,
     "avg": 25000
   },
   "lexus|gs 350|2014": {
@@ -15575,9 +15575,9 @@
     "avg": 6000
   },
   "opel|corsa|2015": {
-    "sum": 108000,
-    "count": 26,
-    "avg": 4153
+    "sum": 112100,
+    "count": 27,
+    "avg": 4151
   },
   "suzuki|across|2014": {
     "sum": 11100,
@@ -15775,9 +15775,9 @@
     "avg": 7100
   },
   "audi|a4|2015": {
-    "sum": 71500,
-    "count": 8,
-    "avg": 8937
+    "sum": 75000,
+    "count": 9,
+    "avg": 8333
   },
   "mitsubishi|outlander sport|2013": {
     "sum": 85900,
@@ -17280,9 +17280,9 @@
     "avg": 6800
   },
   "kia|rio|2013": {
-    "sum": 149500,
-    "count": 34,
-    "avg": 4397
+    "sum": 153650,
+    "count": 35,
+    "avg": 4390
   },
   "toyota|land cruiser|2018": {
     "sum": 106000,
@@ -18330,9 +18330,9 @@
     "avg": 24000
   },
   "mercedes-benz|c 180|1997": {
-    "sum": 2700,
-    "count": 1,
-    "avg": 2700
+    "sum": 4900,
+    "count": 2,
+    "avg": 2450
   },
   "mercedes-benz|e 280|1978": {
     "sum": 19000,
@@ -18615,9 +18615,9 @@
     "avg": 10900
   },
   "kia|niro|2017": {
-    "sum": 103200,
-    "count": 9,
-    "avg": 11466
+    "sum": 114700,
+    "count": 10,
+    "avg": 11470
   },
   "hyundai|elantra gt|2012": {
     "sum": 110000,
@@ -19880,9 +19880,9 @@
     "avg": 2400
   },
   "toyota|isis|2005": {
-    "sum": 37500,
-    "count": 12,
-    "avg": 3125
+    "sum": 40700,
+    "count": 13,
+    "avg": 3130
   },
   "toyota|fun cargo|2000": {
     "sum": 2500,
@@ -20880,8 +20880,8 @@
     "avg": 6200
   },
   "volkswagen|eos|2015": {
-    "sum": 18600,
-    "count": 3,
+    "sum": 24800,
+    "count": 4,
     "avg": 6200
   },
   "suzuki|alto|2004": {
@@ -21090,8 +21090,8 @@
     "avg": 5500
   },
   "mercedes-benz|250|2012": {
-    "sum": 12400,
-    "count": 2,
+    "sum": 18600,
+    "count": 3,
     "avg": 6200
   },
   "bmw|x5|2006": {
@@ -21535,8 +21535,28 @@
     "avg": 9000
   },
   "infiniti|q 50|2019": {
-    "sum": 13600,
-    "count": 1,
+    "sum": 27200,
+    "count": 2,
     "avg": 13600
+  },
+  "mercedes-benz|s 350|2012": {
+    "sum": 14800,
+    "count": 1,
+    "avg": 14800
+  },
+  "subaru|impreza|2011": {
+    "sum": 3800,
+    "count": 1,
+    "avg": 3800
+  },
+  "mercedes-benz|metris passenger van|2018": {
+    "sum": 22000,
+    "count": 1,
+    "avg": 22000
+  },
+  "nissan|terrano|1997": {
+    "sum": 3800,
+    "count": 1,
+    "avg": 3800
   }
 }
