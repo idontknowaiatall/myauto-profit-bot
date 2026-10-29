@@ -325,9 +325,9 @@
     "avg": 18381
   },
   "bmw|x6|2020": {
-    "sum": 6175700,
-    "count": 141,
-    "avg": 43799
+    "sum": 6218200,
+    "count": 142,
+    "avg": 43790
   },
   "bmw|535|2010": {
     "sum": 174300,
@@ -940,9 +940,9 @@
     "avg": 24568
   },
   "jeep|wrangler|2020": {
-    "sum": 1163500,
-    "count": 56,
-    "avg": 20776
+    "sum": 1177800,
+    "count": 57,
+    "avg": 20663
   },
   "mercedes-benz|gls 450|2021": {
     "sum": 617000,
@@ -1300,9 +1300,9 @@
     "avg": 14087
   },
   "hyundai|elantra|2014": {
-    "sum": 630550,
-    "count": 121,
-    "avg": 5211
+    "sum": 636200,
+    "count": 122,
+    "avg": 5214
   },
   "toyota|venza|2021": {
     "sum": 698916,
@@ -1320,9 +1320,9 @@
     "avg": 39440
   },
   "subaru|forester|2017": {
-    "sum": 991284,
-    "count": 108,
-    "avg": 9178
+    "sum": 997784,
+    "count": 109,
+    "avg": 9153
   },
   "toyota|camry|2019": {
     "sum": 3024733,
@@ -1360,9 +1360,9 @@
     "avg": 19545
   },
   "porsche|macan|2024": {
-    "sum": 2576950,
-    "count": 56,
-    "avg": 46016
+    "sum": 2614750,
+    "count": 57,
+    "avg": 45872
   },
   "audi|q3|2022": {
     "sum": 3236162,
@@ -1400,9 +1400,9 @@
     "avg": 10345
   },
   "bmw|330|2020": {
-    "sum": 3693298,
-    "count": 202,
-    "avg": 18283
+    "sum": 3712898,
+    "count": 203,
+    "avg": 18290
   },
   "bmw|m440|2021": {
     "sum": 363000,
@@ -1580,9 +1580,9 @@
     "avg": 3088
   },
   "mercedes-benz|ml 350|2012": {
-    "sum": 403200,
-    "count": 39,
-    "avg": 10338
+    "sum": 415200,
+    "count": 40,
+    "avg": 10380
   },
   "mercedes-benz|e 300|2017": {
     "sum": 1242300,
@@ -2010,9 +2010,9 @@
     "avg": 13457
   },
   "chevrolet|trailblazer|2021": {
-    "sum": 2626605,
-    "count": 220,
-    "avg": 11939
+    "sum": 2637305,
+    "count": 221,
+    "avg": 11933
   },
   "jeep|renegade|2022": {
     "sum": 66700,
@@ -2420,9 +2420,9 @@
     "avg": 8853
   },
   "mitsubishi|outlander sport|2023": {
-    "sum": 384600,
-    "count": 31,
-    "avg": 12406
+    "sum": 396400,
+    "count": 32,
+    "avg": 12387
   },
   "volkswagen|passat|2016": {
     "sum": 1195702,
@@ -4400,9 +4400,9 @@
     "avg": 2776
   },
   "chevrolet|malibu|2016": {
-    "sum": 375200,
-    "count": 64,
-    "avg": 5862
+    "sum": 379500,
+    "count": 65,
+    "avg": 5838
   },
   "bmw|x6|2023": {
     "sum": 3164590,
@@ -4425,9 +4425,9 @@
     "avg": 8683
   },
   "mazda|mazda 6|2015": {
-    "sum": 729442,
-    "count": 105,
-    "avg": 6947
+    "sum": 735842,
+    "count": 106,
+    "avg": 6941
   },
   "mazda|mazda 6|2003": {
     "sum": 17750,
@@ -4625,9 +4625,9 @@
     "avg": 5543
   },
   "land rover|range rover sport|2016": {
-    "sum": 3554158,
-    "count": 120,
-    "avg": 29617
+    "sum": 3574058,
+    "count": 121,
+    "avg": 29537
   },
   "volkswagen|jetta|2018": {
     "sum": 741307,
@@ -7055,8 +7055,8 @@
     "avg": 16513
   },
   "lexus|is 300|2017": {
-    "sum": 986100,
-    "count": 70,
+    "sum": 1000200,
+    "count": 71,
     "avg": 14087
   },
   "nissan|armada|2015": {
@@ -7965,9 +7965,9 @@
     "avg": 18325
   },
   "nissan|x-trail|2004": {
-    "sum": 84900,
-    "count": 26,
-    "avg": 3265
+    "sum": 87400,
+    "count": 27,
+    "avg": 3237
   },
   "mitsubishi|colt|1998": {
     "sum": 14300,
@@ -8335,14 +8335,14 @@
     "avg": 3946
   },
   "subaru|ascent|2019": {
-    "sum": 514700,
-    "count": 43,
-    "avg": 11969
+    "sum": 526200,
+    "count": 44,
+    "avg": 11959
   },
   "toyota|prius|2010": {
-    "sum": 153589,
-    "count": 33,
-    "avg": 4654
+    "sum": 158289,
+    "count": 34,
+    "avg": 4655
   },
   "volkswagen|passat|2006": {
     "sum": 7500,
@@ -9740,9 +9740,9 @@
     "avg": 16600
   },
   "volkswagen|arteon|2021": {
-    "sum": 475100,
-    "count": 25,
-    "avg": 19004
+    "sum": 493600,
+    "count": 26,
+    "avg": 18984
   },
   "honda|ridgeline|2022": {
     "sum": 112000,
@@ -18105,8 +18105,8 @@
     "avg": 4300
   },
   "daewoo|matiz|2008": {
-    "sum": 3600,
-    "count": 3,
+    "sum": 4800,
+    "count": 4,
     "avg": 1200
   },
   "audi|q5|2019": {
