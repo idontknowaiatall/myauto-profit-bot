@@ -8095,9 +8095,9 @@
     "avg": 10682
   },
   "mercedes-benz|glk 350|2013": {
-    "sum": 907200,
-    "count": 99,
-    "avg": 9163
+    "sum": 917600,
+    "count": 100,
+    "avg": 9176
   },
   "cadillac|escalade|2021": {
     "sum": 757000,
@@ -22748,5 +22748,10 @@
     "sum": 14000,
     "count": 1,
     "avg": 14000
+  },
+  "toyota|voxy|2016": {
+    "sum": 11700,
+    "count": 1,
+    "avg": 11700
   }
 }
