@@ -8,6 +8,7 @@ import cloudscraper
 import config
 import market
 import ai_inspector
+import damage
 
 SEEN_FILE = Path(__file__).parent / "seen.json"
 MAX_PAGES = int(os.getenv("MAX_PAGES", "10"))  # lower it on CPU-limited hosts
@@ -21,8 +22,18 @@ def load_seen():
     return set()
 
 def save_seen(seen_set):
-    trimmed = list(seen_set)[-5000:]
-    SEEN_FILE.write_text(json.dumps(trimmed))
+    # keep file order (oldest first) and append new ids, so trimming drops the
+    # oldest ids - list(set) order is arbitrary and could drop recent ones
+    old = []
+    if SEEN_FILE.exists():
+        try:
+            old = json.loads(SEEN_FILE.read_text())
+        except Exception:
+            old = []
+    kept = [i for i in old if i in seen_set]
+    known = set(kept)
+    ordered = kept + [i for i in seen_set if i not in known]
+    SEEN_FILE.write_text(json.dumps(ordered[-8000:]))
 
 def make_session():
     # cloudscraper solves the Cloudflare managed challenge on api2.myauto.ge
@@ -73,7 +84,7 @@ def _extract_items(data):
         return data
     return None
 
-def fetch_all_new_cars():
+def fetch_all_new_cars(seen=None):
     session = make_session()
     all_items = []
     page = 1
@@ -88,6 +99,9 @@ def fetch_all_new_cars():
             break
         print(f"[INFO] Got {len(items)} cars on page {page}")
         all_items.extend(items)
+        if seen is not None and all(str(i.get("car_id") or i.get("id")) in seen for i in items):
+            print(f"[INFO] Page {page} already seen, stopping.")
+            break
         meta = data.get("data", {}).get("meta") if isinstance(data.get("data"), dict) else {}
         if meta and "last_page" in meta and page >= meta["last_page"]:
             break
@@ -204,26 +218,66 @@ def fetch_detail(session, car_id):
         print(f"[ERROR] detail fetch {car_id}: {e}")
         return None
 
+def precheck(car, market_data, rules=None):
+    """Cheap checks on list data only (VIN + market price), run before the
+    detail request so detail calls are spent on real candidates."""
+    source = car.get("source", "myauto")
+    vin = extract_vin({}, car)
+    if source in config.REQUIRE_VIN_SOURCES and (rules or config.PROFIT_RULES).get("require_vin") and not vin:
+        return False, "no VIN registered - cannot verify history"
+    if vin and vin[0] in config.BANNED_VIN_PREFIXES:
+        return False, f"VIN starts with {vin[0]} - excluded"
+    ok_price, _, _, reason_price = market.check_price_drop(car, market_data)
+    if not ok_price:
+        return False, f"market fail: {reason_price}"
+    return True, "precheck pass"
+
+def fetch_auction(session, car_id):
+    """US auction record for a myauto listing.
+    Returns the record dict, {} when myauto has none, None when the lookup failed
+    (a failed lookup must never stop the alert)."""
+    try:
+        resp = session.get(config.AUCTION_URL, params={"carId": car_id}, timeout=config.API_TIMEOUT)
+        resp.raise_for_status()
+        time.sleep(1.0 + random.uniform(0, 1))
+        data = resp.json().get("data")
+    except Exception as e:
+        print(f"[WARN] auction lookup {car_id}: {e}")
+        return None
+    if not isinstance(data, dict) or data.get("status") != "success":
+        return {}
+    # entries can carry stray spaces; video links (.mp4) are not photos
+    images = [str(u).strip() for u in (data.get("images") or [])]
+    data["images"] = [u for u in images if u and not u.lower().split("?")[0].endswith(".mp4")]
+    return data
+
 def check_full_profitable(car, detail, market_data, rules=None):
+    source = car.get("source", "myauto")
     vin = extract_vin(detail or {}, car)
-    if (rules or config.PROFIT_RULES).get("require_vin") and not vin:
+    if source in config.REQUIRE_VIN_SOURCES and (rules or config.PROFIT_RULES).get("require_vin") and not vin:
         return False, {"reason": "no VIN registered - cannot verify history", "vin": None}
     if vin and vin[0] in config.BANNED_VIN_PREFIXES:
         return False, {"reason": f"VIN starts with {vin[0]} - excluded", "vin": vin}
     ok_price, avg, discount, reason_price = market.check_price_drop(car, market_data)
     if not ok_price:
         return False, {"reason": f"market fail: {reason_price}", "avg": avg, "discount": discount, "vin": vin}
-    photo_urls = get_photo_urls(detail or {}, car)
+    photo_urls = car.get("photo_urls") or get_photo_urls(detail or {}, car)
     inspection = ai_inspector.heuristic_inspect(detail or {}, car, market_discount=discount)
+    # Caucasus listings can link to their myauto copy, which has the auction record
+    auction_id = (detail or {}).get("myauto_id") if source != "myauto" else (car.get("car_id") or car.get("id"))
+    auction = fetch_auction(make_session(), auction_id) if auction_id else {}
+    chassis = damage.chassis_risk(car, detail or {}, vin=vin, market_discount=discount, has_market=avg is not None, auction=auction)
     airbag = inspection.get("airbag_prob", 50)
     panel = inspection.get("panel_gap_prob", 50)
     if airbag > config.MAX_ALLOWED_AIRBAG_PROB:
         return False, {"reason": f"airbag risk {airbag}% > {config.MAX_ALLOWED_AIRBAG_PROB}%", "vin": vin, "avg": avg, "discount": discount, "inspection": inspection}
     if panel > config.MAX_ALLOWED_PANEL_GAP_PROB:
         return False, {"reason": f"panel gap risk {panel}% > {config.MAX_ALLOWED_PANEL_GAP_PROB}%", "vin": vin, "avg": avg, "discount": discount, "inspection": inspection}
-    return True, {"vin": vin, "avg": avg, "discount": discount, "inspection": inspection, "photo_urls": photo_urls, "reason": reason_price}
+    return True, {"vin": vin, "avg": avg, "discount": discount, "inspection": inspection, "chassis": chassis, "auction": auction, "photo_urls": photo_urls, "reason": reason_price}
 
 def get_car_link(car):
+    if car.get("link"):
+        return car["link"]
     car_id = car.get("car_id") or car.get("id")
     return f"https://www.myauto.ge/ka/pr/{car_id}"
 

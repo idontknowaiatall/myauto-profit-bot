@@ -1,9 +1,21 @@
 import re
 import config
 
-AIRBAG_KEYWORDS = ["airbag", "air bag", "airbags", "srs", "deployed", "opened", "replaced", "shot", "fired"]
-PANEL_KEYWORDS = ["repaint", "re-paint", "painted", "respray", "panel", "gap", "uneven", "repaired", "restored", "damage", "accident", "collision", "crash", "dent", "filler", "putty"]
-REPAIR_KEYWORDS = ["repaired", "restored", "after accident", "needs repair"]
+# English + Georgian (ka) + Russian (ru): most myauto descriptions are not English
+AIRBAG_KEYWORDS = ["airbag", "air bag", "airbags", "srs", "deployed", "opened", "replaced", "shot", "fired",
+                   "აირბეგ", "ეარბეგ", "უსაფრთხოების ბალიშ",
+                   "подушк", "airbag"]
+PANEL_KEYWORDS = ["repaint", "re-paint", "painted", "respray", "panel", "gap", "uneven", "repaired", "restored", "damage", "accident", "collision", "crash", "dent", "filler", "putty",
+                  "შეღებილ", "ღებვა", "დაზიანებ", "ავარი", "შპაკლ", "ნაჯახ",
+                  "крашен", "покрас", "окрас", "шпакл", "вмятин", "битая", "битый", "дтп", "удар"]
+REPAIR_KEYWORDS = ["repaired", "restored", "after accident", "needs repair",
+                   "შეკეთებულ", "აღდგენილ", "ნაავარიევ", "ავარიის შემდეგ",
+                   "после дтп", "восстановлен", "отремонтирован", "требует ремонт"]
+# claims of a clean car; removed from the text before keyword matching so
+# "не битая" / "უავარიო" do not count as accident hits
+CLEAN_PHRASES = ["no accident", "without accident", "accident free", "accident-free", "clean",
+                 "უავარიო", "ავარიის გარეშე", "შეუღებავ", "არ არის ნაავარიევ", "ქარხნული საღებავ",
+                 "не битая", "не битый", "не бит", "без дтп", "не крашен", "без окрас", "родная краска", "в родной краске"]
 
 def _contains_any(text, keywords):
     t = text.lower()
@@ -21,10 +33,18 @@ def heuristic_inspect(detail, car, market_discount=None):
         if car.get(k):
             desc += " " + str(car.get(k))
     desc_lower = desc.lower()
-    photos = detail.get("photos") or detail.get("pics") or detail.get("photo_urls") or car.get("photos") or []
+    claims_clean = any(c in desc_lower for c in CLEAN_PHRASES)
+    for c in CLEAN_PHRASES:
+        desc_lower = desc_lower.replace(c, " ")
+    # myauto gives a photo count (pic_number), not a photo list
+    photos = detail.get("photos") or detail.get("pics") or detail.get("photo_urls") or car.get("photo_urls") or car.get("photos") or []
     if isinstance(photos, str):
         photos = [photos]
     photo_count = len(photos) if isinstance(photos, list) else 0
+    try:
+        photo_count = max(photo_count, int(detail.get("pic_number") or car.get("pic_number") or 0))
+    except (ValueError, TypeError):
+        pass
 
     airbag_prob = 10
     panel_prob = 15
@@ -67,7 +87,7 @@ def heuristic_inspect(detail, car, market_discount=None):
     airbag_prob = min(95, max(5, airbag_prob))
     panel_prob = min(95, max(5, panel_prob))
 
-    if "no accident" in desc_lower or "without accident" in desc_lower or "clean" in desc_lower:
+    if claims_clean:
         airbag_prob = max(5, airbag_prob - 20)
         panel_prob = max(5, panel_prob - 15)
         reasons.append("claims 'no accident/clean'")

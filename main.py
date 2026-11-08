@@ -7,6 +7,7 @@ import random
 import threading
 import traceback
 import scraper
+import caucasus
 import notifier
 import config
 import commands
@@ -17,10 +18,15 @@ MAX_ALERTS_PER_RUN = 15  # avoid telegram flood limits
 def run_once():
     seen = scraper.load_seen()
     market_data = scraper.market.load_market()
-    cars = scraper.fetch_all_new_cars()
+    cars = scraper.fetch_all_new_cars(seen)
+    try:
+        cars += caucasus.fetch_new_cars(seen)
+    except Exception as e:
+        print(f"[CAUCASUS] fetch failed, myauto only this run: {e}")
     print(f"[LOOP] Fetched {len(cars)} cars, seen cache {len(seen)}")
     new_profitable = 0
     alerts_sent = 0
+    session = scraper.make_session()
     for car in cars:
         car_id = str(car.get("car_id") or car.get("id"))
         if not car_id or car_id in seen:
@@ -31,8 +37,16 @@ def run_once():
         if not ok_basic:
             continue
 
-        session = scraper.make_session()
-        detail = scraper.fetch_detail(session, car_id)
+        # VIN + market price from list data first; detail calls only for real candidates
+        ok_pre, reason = scraper.precheck(car, market_data)
+        if not ok_pre:
+            print(f"[SKIP] {car_id}: {reason}")
+            continue
+
+        if car.get("source") == "caucasus":
+            detail = caucasus.fetch_detail(car)
+        else:
+            detail = scraper.fetch_detail(session, car_id)
         ok_full, info = scraper.check_full_profitable(car, detail, market_data)
         if not ok_full:
             print(f"[SKIP] {car_id}: {info.get('reason')}")

@@ -1,23 +1,41 @@
 import json
+import re
+import statistics
 from pathlib import Path
 import config
 
 MARKET_FILE = Path(__file__).parent / "market_data.json"
 
+MAX_PRICES_PER_KEY = 300
+MIN_SAMPLES_FOR_MEDIAN = 5
+
+def _norm(s):
+    # "5-Series" (caucasus) and "5 Series" (myauto) must share one key
+    return re.sub(r"[^0-9a-z]+", "", str(s or "").lower())
+
 def load_market():
     if MARKET_FILE.exists():
         try:
-            return json.loads(MARKET_FILE.read_text())
+            data = json.loads(MARKET_FILE.read_text())
         except:
             return {}
+        # migrate old raw keys to normalized ones (keep the bigger entry on clash)
+        out = {}
+        for k, v in data.items():
+            parts = k.split("|")
+            nk = "|".join([_norm(parts[0]), _norm(parts[1]), parts[2]]) if len(parts) == 3 else k
+            size = lambda e: max(e.get("count", 0), len(e.get("prices", {})))
+            if nk not in out or size(v) > size(out[nk]):
+                out[nk] = v
+        return out
     return {}
 
 def save_market(data):
     MARKET_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False))
 
 def key_for(car):
-    man = (car.get("man_name") or car.get("man") or "").strip().lower()
-    model = (car.get("model_name") or car.get("model") or "").strip().lower()
+    man = _norm(car.get("man_name") or car.get("man") or "")
+    model = _norm(car.get("model_name") or car.get("model") or "")
     year = str(car.get("prod_year") or "")
     return f"{man}|{model}|{year}"
 
@@ -29,9 +47,13 @@ def get_avg(car, market):
     return entry.get("avg")
 
 def update_with_cars(cars):
+    """Median price per make|model|year. Each listing is stored once by id, so a
+    car seen in many runs no longer counts many times (old sum/count did)."""
     market = load_market()
     for c in cars:
         try:
+            if c.get("source", "myauto") != "myauto":
+                continue  # other sources are uncleared auction cars - different market
             price = c.get("price_usd") or c.get("price_value") or c.get("price")
             if not price:
                 continue
@@ -41,13 +63,15 @@ def update_with_cars(cars):
             k = key_for(c)
             if "|" not in k or k.endswith("|"):
                 continue
-            entry = market.get(k)
-            if not entry:
-                market[k] = {"sum": price, "count": 1, "avg": price}
-            else:
-                entry["sum"] += price
-                entry["count"] += 1
-                entry["avg"] = int(entry["sum"] / entry["count"])
+            car_id = str(c.get("car_id") or c.get("id") or "")
+            entry = market.setdefault(k, {})
+            prices = entry.setdefault("prices", {})
+            prices.pop(car_id, None)  # re-insert so newest stays last
+            prices[car_id] = price
+            while len(prices) > MAX_PRICES_PER_KEY:
+                prices.pop(next(iter(prices)))
+            if len(prices) >= MIN_SAMPLES_FOR_MEDIAN or not entry.get("avg"):
+                entry["avg"] = int(statistics.median(prices.values()))
         except:
             continue
     save_market(market)
