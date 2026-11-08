@@ -6,6 +6,7 @@ import time
 import random
 import threading
 import traceback
+import requests
 import scraper
 import caucasus
 import notifier
@@ -15,7 +16,22 @@ import webserver
 
 MAX_ALERTS_PER_RUN = 15  # avoid telegram flood limits
 
+def telegram_reachable():
+    """True when alerts can be delivered. Telegram needs a VPN from Iran; a run
+    without it would mark cars as seen whose alerts never arrive."""
+    if config.DRY_RUN or not notifier.bot:
+        return True
+    try:
+        r = requests.get(f"https://api.telegram.org/bot{config.TELEGRAM_BOT_TOKEN}/getMe", timeout=15)
+        return r.ok
+    except Exception as e:
+        print(f"[WARN] Telegram unreachable: {type(e).__name__}")
+        return False
+
 def run_once():
+    if not telegram_reachable():
+        print("[SKIP RUN] Telegram unreachable - nothing scanned, nothing marked as seen")
+        return 0, 0
     seen = scraper.load_seen()
     market_data = scraper.market.load_market()
     cars = scraper.fetch_all_new_cars(seen)

@@ -1,8 +1,8 @@
 name: myauto-scan
 
+# myauto blocks GitHub's servers (403 since 2026-11-04), so scheduled scans now
+# run from a PC via local_scan.py. Manual runs still work (Caucasus Auto only).
 on:
-  schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
   workflow_dispatch:          # allow manual "Run workflow" button
 
 permissions:
