@@ -70,8 +70,8 @@ UAE_ENABLED = os.getenv("UAE_ENABLED", "1") == "1"
 UAE_RULES = {
     "min_year": 2016,
     "max_year": 2021,
-    "min_price_aed": 20000,
-    "max_price_aed": 30000,
+    "min_price_aed": 15000,
+    "max_price_aed": 35000,
     "makes": ["toyota", "nissan", "mazda", "kia", "hyundai"],
 }
 UAE_MAX_PAGES = int(os.getenv("UAE_MAX_PAGES", "10"))
