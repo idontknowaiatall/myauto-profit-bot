@@ -10,7 +10,7 @@ MAX_PRICES_PER_KEY = 300
 MIN_SAMPLES_FOR_MEDIAN = 5
 
 def _norm(s):
-    # "5-Series" (caucasus) and "5 Series" (myauto) must share one key
+    # "5-Series" and "5 Series" must share one key
     return re.sub(r"[^0-9a-z]+", "", str(s or "").lower())
 
 def load_market():
@@ -53,7 +53,7 @@ def update_with_cars(cars):
     for c in cars:
         try:
             if c.get("source", "myauto") != "myauto":
-                continue  # other sources are uncleared auction cars - different market
+                continue  # other markets (UAE) must not mix into Georgian prices
             price = c.get("price_usd") or c.get("price_value") or c.get("price")
             if not price:
                 continue

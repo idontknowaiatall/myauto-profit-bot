@@ -81,7 +81,7 @@ def chassis_risk(car, detail=None, vin=None, market_discount=None, has_market=Tr
     strong = 0  # evidence from damage records
     weak = 0    # evidence from text / price / origin
 
-    # 1. recorded damage type (Caucasus Auto auction lots; myauto ids > 0)
+    # 1. recorded damage type (myauto's US auction record; myauto ids > 0)
     for field, factor in (("primaryDamage", 1.0), ("secondaryDamage", 0.5)):
         val = auction.get(field) or detail.get(field) or car.get(field)
         if val and str(val).strip().lower() not in ("unknown", "none", "n/a"):
@@ -99,7 +99,7 @@ def chassis_risk(car, detail=None, vin=None, market_discount=None, has_market=Tr
             pass
 
     # 2. auction import (insurance auctions sell crashed cars)
-    is_auction = bool(auction) or car.get("source") == "caucasus" or str(detail.get("is_auction") or car.get("is_auction") or 0) == "1"
+    is_auction = bool(auction) or str(detail.get("is_auction") or car.get("is_auction") or 0) == "1"
     if is_auction:
         x += 1.0
         weak += 1

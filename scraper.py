@@ -263,8 +263,7 @@ def check_full_profitable(car, detail, market_data, rules=None):
         return False, {"reason": f"market fail: {reason_price}", "avg": avg, "discount": discount, "vin": vin}
     photo_urls = car.get("photo_urls") or get_photo_urls(detail or {}, car)
     inspection = ai_inspector.heuristic_inspect(detail or {}, car, market_discount=discount)
-    # Caucasus listings can link to their myauto copy, which has the auction record
-    auction_id = (detail or {}).get("myauto_id") if source != "myauto" else (car.get("car_id") or car.get("id"))
+    auction_id = (car.get("car_id") or car.get("id")) if source == "myauto" else None
     auction = fetch_auction(make_session(), auction_id) if auction_id else {}
     chassis = damage.chassis_risk(car, detail or {}, vin=vin, market_discount=discount, has_market=avg is not None, auction=auction)
     airbag = inspection.get("airbag_prob", 50)

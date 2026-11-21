@@ -8,7 +8,7 @@ import threading
 import traceback
 import requests
 import scraper
-import caucasus
+import uae
 import notifier
 import config
 import commands
@@ -35,10 +35,6 @@ def run_once():
     seen = scraper.load_seen()
     market_data = scraper.market.load_market()
     cars = scraper.fetch_all_new_cars(seen)
-    try:
-        cars += caucasus.fetch_new_cars(seen)
-    except Exception as e:
-        print(f"[CAUCASUS] fetch failed, myauto only this run: {e}")
     print(f"[LOOP] Fetched {len(cars)} cars, seen cache {len(seen)}")
     new_profitable = 0
     alerts_sent = 0
@@ -59,10 +55,7 @@ def run_once():
             print(f"[SKIP] {car_id}: {reason}")
             continue
 
-        if car.get("source") == "caucasus":
-            detail = caucasus.fetch_detail(car)
-        else:
-            detail = scraper.fetch_detail(session, car_id)
+        detail = scraper.fetch_detail(session, car_id)
         ok_full, info = scraper.check_full_profitable(car, detail, market_data)
         if not ok_full:
             print(f"[SKIP] {car_id}: {info.get('reason')}")
@@ -80,7 +73,32 @@ def run_once():
     # Build market averages from tonight's listings for future price-drop checks
     scraper.market.update_with_cars(cars)
     print(f"[LOOP] Done. New profitable: {new_profitable}, alerts sent: {alerts_sent}")
+    if config.UAE_ENABLED:
+        try:
+            run_uae(seen)
+        except Exception as e:
+            print(f"[UAE] run failed: {e}")
+            traceback.print_exc()
     return len(cars), new_profitable
+
+def run_uae(seen):
+    cars = uae.fetch_all(seen)
+    sent = matched = 0
+    for car in cars:
+        if car["car_id"] in seen:
+            continue
+        seen.add(car["car_id"])
+        ok, reason = uae.matches(car)
+        if not ok:
+            continue
+        matched += 1
+        print(f"[UAE HIT] {car['car_id']} {car['title']} AED {car['price_aed']}")
+        if sent < config.UAE_MAX_ALERTS_PER_RUN and notifier.send_uae(car):
+            scraper.save_seen(seen)
+            time.sleep(1.5)
+            sent += 1
+    scraper.save_seen(seen)
+    print(f"[UAE] Done. Listings: {len(cars)}, matches: {matched}, alerts sent: {sent}")
 
 def scan_loop():
     first = True

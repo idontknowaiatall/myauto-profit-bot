@@ -66,7 +66,7 @@ def format_car_message(car, info=None):
     engine = car.get("engine_volume") or ""
     engine_txt = f"{engine}cc {fuel}".strip()
     link = car.get("link") or f"https://www.myauto.ge/ka/pr/{car_id}"
-    source = "Caucasus Auto" if car.get("source") == "caucasus" else "myauto.ge"
+    source = "myauto.ge"
     photos = info.get("photo_urls") or []
     photo = photos[0] if photos else ""
 
@@ -74,10 +74,7 @@ def format_car_message(car, info=None):
 
 <b>{man} {model} {year}</b>
 💵 Price: <b>${price}</b>
-"""
-    if car.get("customs_usd"):
-        text += f"   (listed ${int(car.get('list_price_usd') or 0):,} + est. customs ${int(car['customs_usd']):,})\n"
-    text += f"""🏁 Mileage: {mileage} km
+🏁 Mileage: {mileage} km
 ⛽ Engine: {engine_txt}
 🛃 Customs: {customs}
 """
@@ -150,6 +147,47 @@ def send_car(car, info=None):
         msg = bot.send_message(config.TELEGRAM_CHAT_ID, text, disable_web_page_preview=False)
         print(f"[SENT] Text for {car.get('car_id')}")
         _send_auction_photos(car, info, reply_to=msg.message_id)
+        return True
+    except Exception as e:
+        print(f"[ERROR] Telegram send failed: {e}")
+        return False
+
+UAE_SOURCES = {"carsooq": "carsooq.com", "sooqcars": "sooq-cars.com"}
+
+def format_uae_message(car):
+    price = car.get("price_aed") or 0
+    usd = round(price / 3.6725 / 100) * 100
+    text = f"🇦🇪 <b>UAE Car</b> ({UAE_SOURCES.get(car.get('source'), car.get('source'))})\n\n"
+    text += f"<b>{escape_html(car.get('title'))}</b>\n"
+    text += f"💵 Price: <b>AED {price:,}</b> (~${usd:,})\n"
+    if car.get("mileage"):
+        text += f"🏁 Mileage: {escape_html(car['mileage'])}\n"
+    if car.get("city"):
+        text += f"📍 {escape_html(car['city'])}\n"
+    if car.get("posted"):
+        text += f"🕒 Posted: {escape_html(car['posted'])}\n"
+    text += f"\n🔗 <a href=\"{car.get('link')}\">{car.get('link')}</a>\n🆔 ID: {car.get('car_id')}\n"
+    return text
+
+def send_uae(car):
+    text = format_uae_message(car)
+    photo = car.get("photo") or ""
+    if config.DRY_RUN:
+        print("[DRY RUN] would send:\n" + text + f"photo: {photo}\n")
+        return True
+    if not bot or not config.TELEGRAM_CHAT_ID:
+        print("[SKIP] Telegram not configured - would send:", car.get("car_id"))
+        return False
+    try:
+        if photo.startswith("http"):
+            try:
+                bot.send_photo(config.TELEGRAM_CHAT_ID, photo, caption=text)
+                print(f"[SENT] UAE photo + caption for {car.get('car_id')}")
+                return True
+            except Exception as e:
+                print(f"[WARN] UAE photo send failed {e}, falling back to text")
+        bot.send_message(config.TELEGRAM_CHAT_ID, text, disable_web_page_preview=False)
+        print(f"[SENT] UAE text for {car.get('car_id')}")
         return True
     except Exception as e:
         print(f"[ERROR] Telegram send failed: {e}")

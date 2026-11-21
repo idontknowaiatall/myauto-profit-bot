@@ -64,14 +64,18 @@ SEARCH_PARAMS.update({
     "PriceTo": str(PROFIT_RULES["max_price"]),
     "MileageTo": str(PROFIT_RULES["max_mileage"]),
 })
-# Caucasus Auto (caucasusauto.com) - Copart partner yard in Rustavi, open JSON API.
-# Its listings carry no VIN, so require_vin applies to myauto only.
-CAUCASUS_ENABLED = os.getenv("CAUCASUS_ENABLED", "1") == "1"
-CAUCASUS_API = "https://cai-api-v2.caucasusauto.com/api/catalogue/GE/listings"
-CAUCASUS_PAGE_SIZE = 50
-CAUCASUS_MAX_PAGES = int(os.getenv("CAUCASUS_MAX_PAGES", "2"))
-CAUCASUS_ADD_CUSTOMS = True  # compare price + customs estimate against cleared myauto prices
 REQUIRE_VIN_SOURCES = {"myauto"}
+# UAE listings (uae.py): own rules, separate from myauto's PROFIT_RULES
+UAE_ENABLED = os.getenv("UAE_ENABLED", "1") == "1"
+UAE_RULES = {
+    "min_year": 2016,
+    "max_year": 2021,
+    "min_price_aed": 20000,
+    "max_price_aed": 30000,
+    "makes": ["toyota", "nissan", "mazda", "kia", "hyundai"],
+}
+UAE_MAX_PAGES = int(os.getenv("UAE_MAX_PAGES", "10"))
+UAE_MAX_ALERTS_PER_RUN = 15
 DRY_RUN = os.getenv("DRY_RUN", "0") == "1"  # print alerts instead of sending
 BANNED_MANS = ["CHEVROLET","FORD","DODGE","CHRYSLER","GMC","CADILLAC","LINCOLN","JEEP","BUICK","TESLA","HUMMER","PONTIAC","SATURN","RAM"]
 BANNED_MANS_NORM = {m.strip().lower() for m in BANNED_MANS}
